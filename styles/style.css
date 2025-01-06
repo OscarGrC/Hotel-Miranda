@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+.navbar {
+  display: block;
+  position: relative;
+  width: 100%;
+  background-color: #FFFFFF;
+  color: #111111;
+  font-family: "Archivo", sans-serif;
+  line-height: 0.8rem;
+  padding: 1rem;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.navbar.navbar--expanded {
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.navbar__menu-icon {
+  display: inline-block;
+  width: 18px;
+  margin-right: 2rem;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.navbar__menu-icon img {
+  width: 100%;
+}
+.navbar__logo {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  position: relative;
+}
+.navbar__logo-start {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111111;
+  vertical-align: middle;
+  margin-right: 1rem;
+  padding: 10px 10px;
+  box-shadow: 0px 1px 2px 0px rgba(139, 139, 139, 0.2509803922);
+  text-align: center;
+}
+.navbar__logo__text {
+  letter-spacing: 1px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  width: 50%;
+}
+.navbar__logo__text-top {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+.navbar__logo__text-bottom {
+  display: block;
+  font-size: 0.7rem;
+  color: #111111;
+  font-weight: 400;
+}
+.navbar__icons {
+  display: inline-block;
+  float: right;
+}
+.navbar__icons .navbar__icon {
+  display: inline-block;
+  width: 24px;
+  margin-left: 1rem;
+  margin-right: 0.2em;
+  cursor: pointer;
+}
+.navbar__dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  z-index: 2;
+  margin-top: 0.2rem;
+}
+.navbar__dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar__dropdown ul li {
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.navbar__dropdown ul li a {
+  display: block;
+  padding-top: 1.2rem;
+  padding-left: 1rem;
+  color: #111111;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.navbar__dropdown ul li a:hover {
+  background-color: #bead8e;
+}
+
+.footer {
+  font-family: "Roboto", sans-serif;
+  background-color: #F5F5F5;
+  padding: 2rem 1rem;
+}
+.footer__logo {
+  display: inline-block;
+  text-align: left;
+  width: 60%;
+  position: relative;
+}
+.footer__logo-start {
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #F5F5F5;
+  vertical-align: middle;
+  margin-right: 0.8rem;
+  padding: 13px 20px;
+  box-shadow: 0px 1px 2px 0px rgba(139, 139, 139, 0.2509803922);
+  text-align: center;
+  background-color: #BEAD8E;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+}
+.footer__logo__text {
+  letter-spacing: 1px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  font-family: "Archivo", sans-serif;
+  color: #111111;
+  width: 50%;
+}
+.footer__logo__text-top {
+  display: block;
+  font-size: 1.625rem;
+  font-weight: 700;
+}
+.footer__logo__text-bottom {
+  display: block;
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+.footer__text {
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: #777777;
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  margin-top: 1rem;
+  max-width: 342px;
+}
+.footer__social {
+  margin-top: 1rem;
+}
+.footer__social a {
+  margin-right: 0.5rem;
+}
+.footer__social a img {
+  width: 24px;
+  height: 24px;
+}
+.footer__services {
+  margin-top: 2rem;
+}
+.footer__services-title {
+  font-family: "Old Standard TT", serif;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+.footer__services-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.footer__services-list-column {
+  width: 48%;
+}
+.footer__services-list-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer__services-list-column ul li {
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+.footer__contact {
+  margin-top: 2rem;
+}
+.footer__contact-title {
+  font-family: "Old Standard TT", serif;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+.footer__contact-item {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.footer__contact-item img {
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem;
+}
+.footer__contact-item-title {
+  font-weight: 600;
+}
+.footer__contact-item-info {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.035rem;
+  color: #111111;
+}
+.footer__copyright {
+  margin-top: 2rem;
+  text-align: center;
+}
+.footer__copyright p {
+  font-size: 1rem;
+  line-height: 1.16rem;
+  font-weight: 700;
+  color: #111111;
+}
+.footer__copyright p:last-child {
+  font-weight: 400;
+}
+
+html,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+}/*# sourceMappingURL=style.css.map */
