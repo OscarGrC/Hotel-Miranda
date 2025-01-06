@@ -247,6 +247,70 @@
   color: #000000;
 }
 
+.reservationCalendar {
+  background-color: #000;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  padding-left: 1.2rem;
+  padding-bottom: 2rem;
+  text-align: left;
+}
+.reservationCalendar__item {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+.reservationCalendar__item-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.17rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.reservationCalendar__item-inputContainer {
+  display: flex;
+}
+.reservationCalendar__item-inputContainer__input {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1rem;
+  color: #686868;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+}
+.reservationCalendar__divider {
+  height: 2px;
+  background: #BEAD8E;
+  border: #BEAD8E;
+  width: 21rem;
+  margin: 0.5rem 0;
+  margin-top: 1rem;
+}
+.reservationCalendar__button {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 0.95rem;
+  letter-spacing: 0.175rem;
+  color: #fff;
+  background-color: #BEAD8E;
+  width: 15.625rem;
+  height: 3.75rem;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+.reservationCalendar__button:hover {
+  background-color: #ab966e;
+}
+
 html,
 * {
   box-sizing: border-box;
