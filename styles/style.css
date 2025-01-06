@@ -311,6 +311,94 @@
   background-color: #ab966e;
 }
 
+.homeVideo {
+  background-color: #000000;
+  padding-bottom: 3rem;
+  padding-top: 4rem;
+  padding-right: 0.6rem;
+  padding-left: 1rem;
+  text-align: left;
+}
+.homeVideo__intro-title {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 0.95rem;
+  letter-spacing: 0.175rem;
+  color: #BDAC8D;
+  margin-bottom: 1rem;
+  padding-bottom: 1.5rem;
+}
+.homeVideo__main-title {
+  font-family: "Old Standard TT", serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 3.75rem;
+  letter-spacing: -0.075rem;
+  text-align: left;
+  color: #FFFFFF;
+  margin-bottom: 1.5rem;
+}
+.homeVideo__description {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: left;
+  color: #C2C2C2;
+  margin-bottom: 2rem;
+  max-width: 338px;
+}
+.homeVideo__video-container {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  max-width: 100%;
+  position: relative;
+}
+.homeVideo__video-container__video {
+  width: 335px;
+  height: 270px;
+  border: none;
+}
+.homeVideo__video-container__play-button {
+  position: absolute;
+  top: 50%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  width: 5rem;
+  height: 5rem;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.homeVideo__video-container__play-button img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.homeVideo__button {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 0.95rem;
+  letter-spacing: 0.175rem;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #BDAC8D;
+  border: none;
+  width: 13.5rem;
+  height: 3.75rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+.homeVideo__button:hover {
+  background-color: #aa946d;
+}
+
 html,
 * {
   box-sizing: border-box;
