@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 .navbar {
   display: block;
   position: relative;
@@ -107,6 +107,7 @@
   font-family: "Roboto", sans-serif;
   background-color: #F5F5F5;
   padding: 2rem 1rem;
+  padding-bottom: 0.5rem;
 }
 .footer__logo {
   display: inline-block;
@@ -159,13 +160,22 @@
 }
 .footer__social {
   margin-top: 1rem;
+  vertical-align: middle;
 }
 .footer__social a {
   margin-right: 0.5rem;
+  margin-left: 0.7rem;
 }
 .footer__social a img {
   width: 24px;
   height: 24px;
+}
+.footer__social-tw {
+  background-color: #BEAD8E;
+  padding: 4px 8px;
+  padding-top: 17px;
+  margin-right: 0.2rem !important;
+  margin-left: 0.2rem !important;
 }
 .footer__services {
   margin-top: 2rem;
@@ -178,11 +188,11 @@
 }
 .footer__services-list {
   display: flex;
-  justify-content: space-between;
   margin-top: 1rem;
 }
 .footer__services-list-column {
   width: 48%;
+  margin-right: 0.5rem;
 }
 .footer__services-list-column ul {
   list-style-type: none;
@@ -190,7 +200,9 @@
 }
 .footer__services-list-column ul li {
   margin-bottom: 0.5rem;
+  margin-top: 1.8rem;
   font-weight: 400;
+  color: #777777;
 }
 .footer__contact {
   margin-top: 2rem;
@@ -207,31 +219,32 @@
   margin-top: 1rem;
 }
 .footer__contact-item img {
-  width: 24px;
-  height: 24px;
+  width: 36px;
+  margin-left: 0.5rem;
   margin-right: 1rem;
 }
 .footer__contact-item-title {
-  font-weight: 600;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  color: #222222;
 }
 .footer__contact-item-info {
   font-family: "Roboto", sans-serif;
   font-size: 0.875rem;
   line-height: 1.035rem;
-  color: #111111;
+  font-weight: 400;
+  color: #777777;
 }
 .footer__copyright {
   margin-top: 2rem;
-  text-align: center;
+  text-align: left;
 }
 .footer__copyright p {
+  margin-top: 1.5em;
   font-size: 1rem;
   line-height: 1.16rem;
   font-weight: 700;
-  color: #111111;
-}
-.footer__copyright p:last-child {
-  font-weight: 400;
+  color: #000000;
 }
 
 html,
