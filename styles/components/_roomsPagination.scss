@@ -1,0 +1,36 @@
+.roomsPagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    &__button {
+        width: 2.4375rem;
+        height: 2.4375rem;
+        background-color: $whiteF;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .img {
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+
+    &-number {
+        font-family: $oswald;
+        font-size: 0.875rem;
+        font-weight: 700;
+        line-height: 1.1875rem;
+        text-align: center;
+
+        &.active {
+            background-color: $beige;
+            color: $whiteF;
+        }
+    }
+}

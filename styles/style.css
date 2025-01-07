@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
 .navbar {
   display: block;
   position: relative;
@@ -267,6 +268,39 @@
   color: #BDBDBD;
   display: inline;
   margin-left: 0.5rem;
+}
+
+.roomsPagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.roomsPagination__button {
+  width: 2.4375rem;
+  height: 2.4375rem;
+  background-color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roomsPagination__button .img {
+  width: 2rem;
+  height: 2rem;
+}
+.roomsPagination-number {
+  font-family: "Oswald", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.1875rem;
+  text-align: center;
+}
+.roomsPagination-number.active {
+  background-color: #BEAD8E;
+  color: #ffffff;
 }
 
 .footer {
