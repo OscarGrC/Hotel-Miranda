@@ -431,9 +431,81 @@
   cursor: pointer;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 3rem;
 }
 .homeAboutUs__button:hover {
   background-color: #c0a87d;
+}
+.homeAboutUs .homeAboutUs__Card {
+  text-align: center;
+  align-items: center;
+  max-width: 16.875rem;
+  margin: 0 auto 2rem;
+}
+.homeAboutUs .homeAboutUs__Card__image {
+  width: 16.875rem;
+  height: 18.75rem;
+}
+.homeAboutUs .homeAboutUs__Card__container {
+  margin-top: -4px;
+  padding-top: 2.5rem;
+  box-shadow: 0px 0.5rem 1rem 0px rgba(34, 34, 34, 0.05);
+  text-align: center;
+  position: relative;
+}
+.homeAboutUs .homeAboutUs__Card__container-strong {
+  background-color: #ffffff;
+}
+.homeAboutUs .homeAboutUs__Card__container-luxury {
+  background-color: #222222;
+}
+.homeAboutUs .homeAboutUs__Card__container__icon {
+  width: 4.25rem;
+  height: 3.12rem;
+  margin-bottom: 1rem;
+  z-index: 2;
+  position: relative;
+}
+.homeAboutUs .homeAboutUs__Card__container__backicon {
+  width: 9rem;
+  height: 6.625rem;
+  position: absolute;
+  top: 12%;
+  right: 0%;
+  z-index: 1;
+}
+.homeAboutUs .homeAboutUs__Card__container__title {
+  font-family: "Old Standard TT", serif;
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  letter-spacing: -0.05625rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  z-index: 2;
+  position: relative;
+}
+.homeAboutUs .homeAboutUs__Card__container__title-strong {
+  color: #111111;
+}
+.homeAboutUs .homeAboutUs__Card__container__title-luxury {
+  color: #ffffff;
+}
+.homeAboutUs .homeAboutUs__Card__container__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+  text-align: center;
+  max-width: 200px;
+  margin: 0 auto 1rem;
+  padding-bottom: 2rem;
+}
+.homeAboutUs .homeAboutUs__Card__container__text-strong {
+  color: #111111;
+}
+.homeAboutUs .homeAboutUs__Card__container__text-luxury {
+  color: #ffffff;
 }
 
 .homeVideo {
