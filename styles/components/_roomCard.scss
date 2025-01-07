@@ -1,0 +1,78 @@
+.roomCard {
+    width: 335px;
+    background-color: $whiteF;
+    padding-top: 3rem;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+
+    &__image {
+        width: 335px;
+        height: 13.625rem;
+        object-fit: cover;
+        margin-bottom: 2rem;
+    }
+
+    &__icons {
+        background-color: $whiteF;
+        padding: 0.5rem 1rem;
+        padding-right: 0rem;
+        margin-bottom: 1rem;
+        display: inline-block;
+        top: 250px;
+        left: 10%;
+        position: absolute;
+
+        &__icon {
+            width: 1rem;
+            height: 1rem;
+            margin-right: 1rem;
+        }
+    }
+
+    &__title {
+        font-family: $old;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+        letter-spacing: -0.045rem;
+        text-align: center;
+        color: $black2;
+        margin-bottom: 1rem;
+    }
+
+    &__description {
+        font-family: $domoArigato;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+        text-align: center;
+        color: $grey7;
+        margin-bottom: 1.5rem;
+        max-width: 318px;
+    }
+
+    &__price-booking {
+        display: block;
+
+        &__price {
+            font-family: $archivo;
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1.09rem;
+            color: $beige;
+            display: inline;
+            margin-right: 0.5rem;
+        }
+
+        &__booking {
+            font-family: $archivo;
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1.09rem;
+            color: $greyB;
+            display: inline;
+            margin-left: 0.5rem;
+        }
+    }
+}
