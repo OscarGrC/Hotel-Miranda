@@ -1,0 +1,459 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+.navbar {
+  display: block;
+  position: relative;
+  width: 100%;
+  background-color: #ffffff;
+  color: #111111;
+  font-family: "Archivo", sans-serif;
+  line-height: 0.8rem;
+  padding: 1rem;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.navbar.navbar--expanded {
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.navbar__menu-icon {
+  display: inline-block;
+  width: 18px;
+  margin-right: 2rem;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.navbar__menu-icon img {
+  width: 100%;
+}
+.navbar__logo {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  position: relative;
+}
+.navbar__logo-start {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111111;
+  vertical-align: middle;
+  margin-right: 1rem;
+  padding: 10px 10px;
+  box-shadow: 0px 1px 2px 0px rgba(139, 139, 139, 0.2509803922);
+  text-align: center;
+}
+.navbar__logo__text {
+  letter-spacing: 1px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  width: 50%;
+}
+.navbar__logo__text-top {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+.navbar__logo__text-bottom {
+  display: block;
+  font-size: 0.7rem;
+  color: #111111;
+  font-weight: 400;
+}
+.navbar__icons {
+  display: inline-block;
+  float: right;
+}
+.navbar__icons-icon {
+  display: inline-block;
+  width: 24px;
+  padding-top: 0.1rem;
+  margin-left: 1rem;
+  margin-right: 0.2em;
+  cursor: pointer;
+}
+.navbar__dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 2;
+  padding-bottom: 1.8rem;
+}
+.navbar__dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar__dropdown ul li {
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.navbar__dropdown ul li a {
+  display: block;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  color: #111111;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.navbar__dropdown ul li a:hover {
+  background-color: #BEAD8E;
+}
+
+.luxuryExperience {
+  background-color: #333333;
+  padding: 1rem;
+  padding-bottom: 0rem;
+  padding-left: 2rem;
+  text-align: end;
+}
+.luxuryExperience-home {
+  padding-bottom: 5rem;
+}
+.luxuryExperience__subtitle {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  letter-spacing: 0.175rem;
+  text-align: left;
+  color: #ffffff;
+  max-width: 280px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.luxuryExperience__title {
+  font-family: "Old Standard TT", serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 3.75rem;
+  letter-spacing: -0.075rem;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 2.5rem;
+  max-width: 315px;
+}
+.luxuryExperience__button-tour {
+  display: block;
+  font-family: "Archivo", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 0.95rem;
+  letter-spacing: 0.175rem;
+  color: #ffffff;
+  background-color: #BEAD8E;
+  width: 13.56rem;
+  height: 3.75rem;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+.luxuryExperience__button-tour:hover {
+  background-color: #c0a87d;
+}
+.luxuryExperience__button-learn {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 0.95rem;
+  letter-spacing: 0.175rem;
+  color: #ffffff;
+  background-color: #333333;
+  width: 13.56rem;
+  height: 3.75rem;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  border: 2px solid #686868;
+}
+.luxuryExperience__button-learn:hover {
+  background-color: #686868;
+}
+.luxuryExperience__footer {
+  background-color: #ffffff;
+  padding: 1rem;
+  display: inline-block;
+}
+.luxuryExperience__footer__text {
+  font-family: "Archivo", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.0875rem;
+  letter-spacing: -0.03rem;
+  display: inline;
+}
+.luxuryExperience__footer__text:first-child {
+  color: #222222;
+}
+.luxuryExperience__footer__text:last-child {
+  color: #BEAD8E;
+}
+
+.roomCard {
+  width: 335px;
+  background-color: #ffffff;
+  padding-top: 3rem;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.roomCard__image {
+  width: 335px;
+  height: 13.625rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 2rem;
+}
+.roomCard__icons {
+  background-color: #ffffff;
+  padding: 0.5rem 1rem;
+  padding-right: 0rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  top: 250px;
+  left: 10%;
+  position: absolute;
+}
+.roomCard__icons__icon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 1rem;
+}
+.roomCard__title {
+  font-family: "Old Standard TT", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: -0.045rem;
+  text-align: center;
+  color: #222222;
+  margin-bottom: 1rem;
+}
+.roomCard__description {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #777777;
+  margin-bottom: 1.5rem;
+  max-width: 318px;
+}
+.roomCard__price-booking {
+  display: block;
+}
+.roomCard__price-booking__price {
+  font-family: "Archivo", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.09rem;
+  color: #BEAD8E;
+  display: inline;
+  margin-right: 0.5rem;
+}
+.roomCard__price-booking__booking {
+  font-family: "Archivo", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.09rem;
+  color: #BDBDBD;
+  display: inline;
+  margin-left: 0.5rem;
+}
+
+.roomsPagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.roomsPagination__button {
+  width: 2.4375rem;
+  height: 2.4375rem;
+  background-color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roomsPagination__button .img {
+  width: 2rem;
+  height: 2rem;
+}
+.roomsPagination-number {
+  font-family: "Oswald", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.1875rem;
+  text-align: center;
+}
+.roomsPagination-number.active {
+  background-color: #BEAD8E;
+  color: #ffffff;
+}
+
+.footer {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f8f8;
+  padding: 2rem 1rem;
+  padding-bottom: 0.5rem;
+}
+.footer__logo {
+  display: inline-block;
+  text-align: left;
+  width: 60%;
+  position: relative;
+}
+.footer__logo-start {
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #f8f8f8;
+  vertical-align: middle;
+  margin-right: 0.8rem;
+  padding: 13px 20px;
+  box-shadow: 0px 1px 2px 0px rgba(139, 139, 139, 0.2509803922);
+  text-align: center;
+  background-color: #BEAD8E;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+}
+.footer__logo__text {
+  letter-spacing: 1px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  font-family: "Archivo", sans-serif;
+  color: #111111;
+  width: 50%;
+}
+.footer__logo__text-top {
+  display: block;
+  font-size: 1.625rem;
+  font-weight: 700;
+}
+.footer__logo__text-bottom {
+  display: block;
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+.footer__text {
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: #777777;
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  margin-top: 1rem;
+  max-width: 342px;
+}
+.footer__social {
+  margin-top: 1rem;
+  vertical-align: middle;
+}
+.footer__social a {
+  margin-right: 0.5rem;
+  margin-left: 0.7rem;
+}
+.footer__social a img {
+  width: 24px;
+  height: 24px;
+}
+.footer__social-tw {
+  background-color: #BEAD8E;
+  padding: 4px 8px;
+  padding-top: 17px;
+  margin-right: 0.2rem !important;
+  margin-left: 0.2rem !important;
+}
+.footer__services {
+  margin-top: 2rem;
+}
+.footer__services-title {
+  font-family: "Old Standard TT", serif;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+.footer__services-list {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: flex-start;
+}
+.footer__services-list-column {
+  margin-right: 0.5rem;
+}
+.footer__services-list-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer__services-list-column ul li {
+  margin-bottom: 0.5rem;
+  margin-top: 1.8rem;
+  font-weight: 400;
+  color: #777777;
+}
+.footer__contact {
+  margin-top: 2rem;
+}
+.footer__contact-title {
+  font-family: "Old Standard TT", serif;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+.footer__contact-item {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.footer__contact-item img {
+  width: 36px;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+.footer__contact-item-title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  color: #222222;
+}
+.footer__contact-item-info {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.035rem;
+  font-weight: 400;
+  color: #777777;
+}
+.footer__copyright {
+  margin-top: 2rem;
+  text-align: left;
+}
+.footer__copyright p {
+  margin-top: 1.5em;
+  font-size: 1rem;
+  line-height: 1.16rem;
+  font-weight: 700;
+  color: #222222;
+}
+
+html,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+}/*# sourceMappingURL=rooms.css.map */
