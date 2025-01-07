@@ -1,0 +1,39 @@
+@mixin defaultButton($backgrounColor, $hover-color, $text-color, $width: 15.625rem, $height: 3.75rem) {
+    font-family: $archivo;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 0.95rem;
+    letter-spacing: 0.175rem;
+    color: $text-color;
+    background-color: $backgrounColor;
+    width: $width;
+    height: $height;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: $hover-color;
+    }
+}
+
+@mixin sectionTitle($text-color) {
+    font-family: $old;
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 3.75rem;
+    letter-spacing: -0.075rem;
+    text-align: left;
+    color: $text-color;
+}
+
+@mixin sectionSubtitle($text-color, $fontSize: 0.8125rem, $lineHeight: 1.125rem) {
+    font-family: $archivo;
+    font-size: $fontSize;
+    font-weight: 700;
+    line-height: $lineHeight;
+    letter-spacing: 0.175rem;
+    text-align: left;
+    color: $text-color;
+}

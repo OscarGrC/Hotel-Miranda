@@ -1,5 +1,5 @@
 .reservationCalendar {
-    background-color: #000; // Fondo negro
+    background-color: $black2;
     padding-right: 1rem;
     padding-top: 2rem;
     padding-left: 1.2rem;
@@ -11,11 +11,11 @@
         text-align: left;
 
         &-title {
-            font-family: 'Roboto', sans-serif;
+            font-family: $domoArigato;
             font-size: 1rem;
             font-weight: 700;
             line-height: 1.17rem;
-            color: #fff;
+            color: $whiteF;
             margin-bottom: 1rem;
         }
 
@@ -23,11 +23,11 @@
             display: flex;
 
             &__input {
-                font-family: 'Roboto', sans-serif;
+                font-family: $domoArigato;
                 font-size: 0.875rem;
                 font-weight: 400;
                 line-height: 1rem;
-                color: #686868;
+                color: $grey68;
                 background-color: transparent;
                 border: none;
                 outline: none;
@@ -36,38 +36,19 @@
                 margin-top: 0.2rem;
             }
         }
-
-
     }
 
     &__divider {
         height: 2px;
-        background: #BEAD8E;
-        border: #BEAD8E;
+        background: $beige;
+        border: $beige;
         width: 21rem;
         margin: 0.5rem 0;
         margin-top: 1rem;
     }
 
     &__button {
-
-        font-family: 'Archivo', sans-serif;
-        font-size: 0.875rem;
-        font-weight: 700;
-        line-height: 0.95rem;
-        letter-spacing: 0.175rem;
-        color: #fff;
-        background-color: #BEAD8E;
-        width: 15.625rem;
-        height: 3.75rem;
-        border: none;
-        cursor: pointer;
-        opacity: 1;
-        text-transform: uppercase;
+        @include defaultButton($beige, $beigeHover, $whiteF);
         margin-top: 2rem;
-
-        &:hover {
-            background-color: darken(#BEAD8E, 10%);
-        }
     }
 }

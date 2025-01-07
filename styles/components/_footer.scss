@@ -1,10 +1,6 @@
-$primary-color: #F5F5F5;
-$text-color: #111111;
-$shadow-color: rgba(0, 0, 0, 0.1);
-
 .footer {
-    font-family: 'Roboto', sans-serif;
-    background-color: $primary-color;
+    font-family: $domoArigato;
+    background-color: $whiteF8;
     padding: 2rem 1rem;
     padding-bottom: 0.5rem;
 
@@ -19,14 +15,14 @@ $shadow-color: rgba(0, 0, 0, 0.1);
             display: inline-block;
             font-size: 2.5rem;
             font-weight: 700;
-            color: $primary-color;
+            color: $whiteF8;
             vertical-align: middle;
             margin-right: 0.8rem;
             padding: 13px 20px;
             box-shadow: 0px 1px 2px 0px #8B8B8B40;
             text-align: center;
-            background-color: #BEAD8E;
-            font-family: 'Archivo', sans-serif;
+            background-color: $beige;
+            font-family: $archivo;
             font-weight: 700;
         }
 
@@ -35,8 +31,8 @@ $shadow-color: rgba(0, 0, 0, 0.1);
             display: inline-block;
             vertical-align: middle;
             text-align: left;
-            font-family: 'Archivo', sans-serif;
-            color: $text-color;
+            font-family: $archivo;
+            color: $black1;
             width: 50%;
 
             &-top {
@@ -59,8 +55,8 @@ $shadow-color: rgba(0, 0, 0, 0.1);
         padding-top: 0.5rem;
         font-size: 1rem;
         line-height: 1.625rem;
-        color: #777777;
-        font-family: 'Archivo', sans-serif;
+        color: $grey7;
+        font-family: $archivo;
         font-weight: 400;
         margin-top: 1rem;
         max-width: 342px;
@@ -82,7 +78,7 @@ $shadow-color: rgba(0, 0, 0, 0.1);
         }
 
         &-tw {
-            background-color: #BEAD8E;
+            background-color: $beige;
             padding: 4px 8px;
             padding-top: 17px;
             margin-right: 0.2rem !important;
@@ -95,7 +91,7 @@ $shadow-color: rgba(0, 0, 0, 0.1);
         margin-top: 2rem;
 
         &-title {
-            font-family: 'Old Standard TT', serif;
+            font-family: $old;
             font-size: 1.5rem;
             line-height: 1.5rem;
             font-weight: 400;
@@ -104,9 +100,9 @@ $shadow-color: rgba(0, 0, 0, 0.1);
         &-list {
             display: flex;
             margin-top: 1rem;
+            justify-content: flex-start;
 
             &-column {
-                width: 48%;
                 margin-right: 0.5rem;
 
                 ul {
@@ -117,7 +113,7 @@ $shadow-color: rgba(0, 0, 0, 0.1);
                         margin-bottom: 0.5rem;
                         margin-top: 1.8rem;
                         font-weight: 400;
-                        color: #777777;
+                        color: $grey7;
                     }
                 }
             }
@@ -129,7 +125,7 @@ $shadow-color: rgba(0, 0, 0, 0.1);
         margin-top: 2rem;
 
         &-title {
-            font-family: 'Old Standard TT', serif;
+            font-family: $old;
             font-size: 1.5rem;
             line-height: 1.5rem;
             font-weight: 400;
@@ -147,17 +143,17 @@ $shadow-color: rgba(0, 0, 0, 0.1);
             }
 
             &-title {
-                font-family: 'Old Standard TT', serif;
+                font-family: $old;
                 font-weight: 400;
-                color: #222222;
+                color: $black2;
             }
 
             &-info {
-                font-family: 'Roboto', sans-serif;
+                font-family: $domoArigato;
                 font-size: 0.875rem;
                 line-height: 1.035rem;
                 font-weight: 400;
-                color: #777777;
+                color: $grey7;
             }
         }
     }
@@ -167,13 +163,12 @@ $shadow-color: rgba(0, 0, 0, 0.1);
         margin-top: 2rem;
         text-align: left;
 
-
         p {
             margin-top: 1.5em;
             font-size: 1rem;
             line-height: 1.16rem;
             font-weight: 700;
-            color: #000000;
+            color: $black2;
         }
 
     }

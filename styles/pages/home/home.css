@@ -248,74 +248,6 @@
   color: #222222;
 }
 
-.luxuryExperience {
-  background-color: #333333;
-  padding: 1rem;
-  padding-left: 2rem;
-  padding-bottom: 4rem;
-}
-.luxuryExperience__subtitle {
-  font-family: "Archivo", sans-serif;
-  font-size: 0.8125rem;
-  font-weight: 700;
-  line-height: 1.125rem;
-  letter-spacing: 0.175rem;
-  text-align: left;
-  color: #ffffff;
-  max-width: 280px;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-}
-.luxuryExperience__title {
-  font-family: "Old Standard TT", serif;
-  font-size: 3.5rem;
-  font-weight: 400;
-  line-height: 3.75rem;
-  letter-spacing: -0.075rem;
-  text-align: left;
-  color: #ffffff;
-  margin-bottom: 3rem;
-  max-width: 315px;
-}
-.luxuryExperience__button-tour {
-  font-family: "Archivo", sans-serif;
-  font-size: 0.875rem;
-  font-weight: 700;
-  line-height: 0.95rem;
-  letter-spacing: 0.175rem;
-  color: #ffffff;
-  background-color: #BEAD8E;
-  width: 13.56rem;
-  height: 3.75rem;
-  border: none;
-  cursor: pointer;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 1.5rem;
-}
-.luxuryExperience__button-tour:hover {
-  background-color: #c0a87d;
-}
-.luxuryExperience__button-learn {
-  font-family: "Archivo", sans-serif;
-  font-size: 0.875rem;
-  font-weight: 700;
-  line-height: 0.95rem;
-  letter-spacing: 0.175rem;
-  color: #ffffff;
-  background-color: #333333;
-  width: 13.56rem;
-  height: 3.75rem;
-  border: none;
-  cursor: pointer;
-  text-align: center;
-  text-transform: uppercase;
-  border: 2px solid #686868;
-}
-.luxuryExperience__button-learn:hover {
-  background-color: #686868;
-}
-
 .reservationCalendar {
   background-color: #222222;
   padding-right: 1rem;
@@ -377,62 +309,6 @@
   margin-top: 2rem;
 }
 .reservationCalendar__button:hover {
-  background-color: #c0a87d;
-}
-
-.homeAboutUs {
-  padding: 2rem;
-  padding-left: 1rem;
-  padding-bottom: 4rem;
-  background-color: #f9f9f9;
-}
-.homeAboutUs__subtitle {
-  font-family: "Archivo", sans-serif;
-  font-size: 0.8125rem;
-  font-weight: 700;
-  line-height: 1.125rem;
-  letter-spacing: 0.175rem;
-  text-align: left;
-  color: #777777;
-  margin-bottom: 2rem;
-}
-.homeAboutUs__title {
-  font-family: "Old Standard TT", serif;
-  font-size: 3.5rem;
-  font-weight: 400;
-  line-height: 3.75rem;
-  letter-spacing: -0.075rem;
-  text-align: left;
-  color: #111111;
-  max-width: 620px;
-  margin-bottom: 1rem;
-}
-.homeAboutUs__text {
-  font-family: "Archivo", sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.5rem;
-  text-align: left;
-  color: #777777;
-  max-width: 332px;
-  margin-bottom: 2rem;
-}
-.homeAboutUs__button {
-  font-family: "Archivo", sans-serif;
-  font-size: 0.875rem;
-  font-weight: 700;
-  line-height: 0.95rem;
-  letter-spacing: 0.175rem;
-  color: #ffffff;
-  background-color: #BEAD8E;
-  width: 13.5rem;
-  height: 3.75rem;
-  border: none;
-  cursor: pointer;
-  text-align: center;
-  text-transform: uppercase;
-}
-.homeAboutUs__button:hover {
   background-color: #c0a87d;
 }
 
@@ -533,4 +409,4 @@ html,
 
 body {
   min-width: 320px;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=home.css.map */

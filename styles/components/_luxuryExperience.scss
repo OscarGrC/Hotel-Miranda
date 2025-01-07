@@ -1,0 +1,32 @@
+.luxuryExperience {
+    background-color: $black3;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 4rem;
+
+
+    &__subtitle {
+        @include sectionSubtitle($whiteF);
+        max-width: 280px;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    &__title {
+        @include sectionTitle($whiteF);
+        margin-bottom: 3rem;
+        max-width: 315px;
+    }
+
+    &__button-tour {
+        @include defaultButton($beige, $beigeHover, $whiteF, 13.56rem, 3.75rem);
+        margin-bottom: 1.5rem;
+
+    }
+
+    &__button-learn {
+        @include defaultButton($black3, $grey68, $whiteF, 13.56rem, 3.75rem);
+        border: 2px solid $grey68;
+    }
+
+}
