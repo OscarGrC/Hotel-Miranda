@@ -1,4 +1,4 @@
-@mixin defaultButton($backgrounColor, $hover-color, $text-color, $width: 15.625rem, $height: 3.75rem) {
+@mixin defaultButton($backgrounColor, $hover-color, $text-color, $padingV: 1.5rem, $padingH: 2rem) {
     font-family: $archivo;
     font-size: 0.875rem;
     font-weight: 700;
@@ -6,8 +6,7 @@
     letter-spacing: 0.175rem;
     color: $text-color;
     background-color: $backgrounColor;
-    width: $width;
-    height: $height;
+    padding: $padingV $padingH;
     border: none;
     cursor: pointer;
     text-align: center;

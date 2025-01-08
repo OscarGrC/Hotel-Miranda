@@ -147,8 +147,7 @@
   letter-spacing: 0.175rem;
   color: #ffffff;
   background-color: #BEAD8E;
-  width: 13.56rem;
-  height: 3.75rem;
+  padding: 1.5rem 2rem;
   border: none;
   cursor: pointer;
   text-align: center;
@@ -166,8 +165,7 @@
   letter-spacing: 0.175rem;
   color: #ffffff;
   background-color: #333333;
-  width: 13.56rem;
-  height: 3.75rem;
+  padding: 1.5rem 2rem;
   border: none;
   cursor: pointer;
   text-align: center;
@@ -338,7 +336,7 @@
   max-width: 300px;
 }
 .aboutRestaurant__text {
-  font-family: Archivo;
+  font-family: "Archivo", sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5rem;
@@ -355,8 +353,7 @@
   letter-spacing: 0.175rem;
   color: #ffffff;
   background-color: #BEAD8E;
-  width: auto;
-  height: auto;
+  padding: auto auto;
   border: none;
   cursor: pointer;
   text-align: center;
@@ -373,11 +370,14 @@
   background-color: #f8f8f8;
   padding: 2rem 1rem;
   padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .footer__logo {
   display: inline-block;
   text-align: left;
-  width: 60%;
+  margin-right: 8rem;
   position: relative;
 }
 .footer__logo-start {
@@ -475,6 +475,7 @@
 }
 .footer__contact {
   margin-top: 2rem;
+  margin-right: 7rem;
 }
 .footer__contact-title {
   font-family: "Old Standard TT", serif;

@@ -6,7 +6,8 @@
     text-align: end;
 
     &-home {
-        padding-bottom: 5rem
+        padding-bottom: 5rem;
+
     }
 
     &__subtitle {
@@ -25,13 +26,13 @@
     &__button-tour {
 
         display: block;
-        @include defaultButton($beige, $beigeHover, $whiteF, 13.56rem, 3.75rem);
+        @include defaultButton($beige, $beigeHover, $whiteF);
         margin-bottom: 1.5rem;
 
     }
 
     &__button-learn {
-        @include defaultButton($black3, $grey68, $whiteF, 13.56rem, 3.75rem);
+        @include defaultButton($black3, $grey68, $whiteF);
         display: block;
         border: 2px solid $grey68;
 

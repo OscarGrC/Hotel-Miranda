@@ -110,11 +110,14 @@
   background-color: #f8f8f8;
   padding: 2rem 1rem;
   padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .footer__logo {
   display: inline-block;
   text-align: left;
-  width: 60%;
+  margin-right: 8rem;
   position: relative;
 }
 .footer__logo-start {
@@ -212,6 +215,7 @@
 }
 .footer__contact {
   margin-top: 2rem;
+  margin-right: 7rem;
 }
 .footer__contact-title {
   font-family: "Old Standard TT", serif;
@@ -296,8 +300,7 @@
   letter-spacing: 0.175rem;
   color: #ffffff;
   background-color: #BEAD8E;
-  width: 13.56rem;
-  height: 3.75rem;
+  padding: 1.5rem 2rem;
   border: none;
   cursor: pointer;
   text-align: center;
@@ -315,8 +318,7 @@
   letter-spacing: 0.175rem;
   color: #ffffff;
   background-color: #333333;
-  width: 13.56rem;
-  height: 3.75rem;
+  padding: 1.5rem 2rem;
   border: none;
   cursor: pointer;
   text-align: center;
@@ -354,6 +356,9 @@
   padding-left: 1.2rem;
   padding-bottom: 2rem;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .reservationCalendar__item {
   margin-bottom: 2rem;
@@ -399,13 +404,13 @@
   letter-spacing: 0.175rem;
   color: #ffffff;
   background-color: #BEAD8E;
-  width: 15.625rem;
-  height: 3.75rem;
+  padding: 1.5rem 2rem;
   border: none;
   cursor: pointer;
   text-align: center;
   text-transform: uppercase;
   margin-top: 2rem;
+  margin-right: 4.5rem;
 }
 .reservationCalendar__button:hover {
   background-color: #c0a87d;
@@ -416,6 +421,9 @@
   padding-left: 1rem;
   padding-bottom: 4rem;
   background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .homeAboutUs__subtitle {
   font-family: "Archivo", sans-serif;
@@ -426,6 +434,7 @@
   text-align: left;
   color: #777777;
   margin-bottom: 2rem;
+  margin-right: 15rem;
 }
 .homeAboutUs__title {
   font-family: "Old Standard TT", serif;
@@ -435,7 +444,7 @@
   letter-spacing: -0.075rem;
   text-align: left;
   color: #111111;
-  max-width: 620px;
+  max-width: 340px;
   margin-bottom: 1rem;
 }
 .homeAboutUs__text {
@@ -456,8 +465,7 @@
   letter-spacing: 0.175rem;
   color: #ffffff;
   background-color: #BEAD8E;
-  width: 13.5rem;
-  height: 3.75rem;
+  padding: 1.5rem 2rem;
   border: none;
   cursor: pointer;
   text-align: center;
@@ -546,6 +554,9 @@
   padding-right: 0.6rem;
   padding-left: 1rem;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .homeVideo__intro-title {
   font-family: "Archivo", sans-serif;
@@ -616,8 +627,7 @@
   letter-spacing: 0.175rem;
   color: #ffffff;
   background-color: #BEAD8E;
-  width: 13.5rem;
-  height: 3.75rem;
+  padding: 1.5rem 2rem;
   border: none;
   cursor: pointer;
   text-align: center;
