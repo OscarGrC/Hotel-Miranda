@@ -1,0 +1,18 @@
+@import '../../globalVariables.scss';
+@import '../../mixins.scss';
+@import '../../components/navbar.scss';
+@import'../../components/luxuryExperience.scss';
+@import '../../components/contact/contactInfo.scss';
+@import '../../components/contact/contactForm.scss';
+@import '../../components/footer.scss';
+
+html,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    min-width: 320px
+}

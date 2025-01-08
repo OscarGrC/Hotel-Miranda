@@ -1,0 +1,22 @@
+@import '../../globalVariables.scss';
+@import '../../mixins.scss';
+@import '../../components/navbar.scss';
+@import'../../components/luxuryExperience.scss';
+@import'../../components/roomsDetails/checkAvailability.scss';
+@import'../../components/roomsDetails/smallComponets.scss';
+@import'../../components/roomsDetails/servicesList.scss';
+@import '../../components/footer.scss';
+@import '../../components/roomsDetails/roomReview.scss';
+@import '../../components/roomsDetails/cancellationPolicy.scss';
+
+
+html,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    min-width: 320px
+}

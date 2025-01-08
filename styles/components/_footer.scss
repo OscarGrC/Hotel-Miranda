@@ -67,9 +67,17 @@
         margin-top: 1rem;
         vertical-align: middle;
 
+
+
         a {
             margin-right: 0.5rem;
             margin-left: 0.7rem;
+            padding: 4px 8px;
+            padding-top: 17px;
+
+            &:hover {
+                background-color: $beige;
+            }
 
             img {
                 width: 24px;
@@ -78,7 +86,6 @@
         }
 
         &-tw {
-            background-color: $beige;
             padding: 4px 8px;
             padding-top: 17px;
             margin-right: 0.2rem !important;
@@ -149,11 +156,7 @@
             }
 
             &-info {
-                font-family: $domoArigato;
-                font-size: 0.875rem;
-                line-height: 1.035rem;
-                font-weight: 400;
-                color: $grey7;
+                @include robotoText400($grey7, 0.875rem, 1.035rem);
             }
         }
     }

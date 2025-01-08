@@ -1,0 +1,20 @@
+@import '../../globalVariables.scss';
+@import '../../mixins.scss';
+@import '../../components/navbar.scss';
+@import'../../components/luxuryExperience.scss';
+@import'../../components/roomsDetails/servicesList.scss';
+@import '../../components/offert/offerCard.scss';
+@import '../../components/footer.scss';
+
+
+
+html,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    min-width: 320px
+}

@@ -44,4 +44,14 @@
     font-weight: 400;
     line-height: $lineHeight;
     text-align: left;
+    color: $text-color;
+}
+
+@mixin titleOld($text-color, $fontSize: 1.875rem, $lineHeight: 1.875rem) {
+    font-family: $old;
+    font-size: $fontSize;
+    font-weight: 400;
+    line-height: $lineHeight;
+    color: $text-color;
+    text-align: left;
 }

@@ -1,0 +1,12 @@
+.centerInPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.roomDetailsText {
+    @include robotoText400($grey7);
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
+    max-width: 359px;
+}

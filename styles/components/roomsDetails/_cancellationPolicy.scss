@@ -1,0 +1,24 @@
+.CancellationPolicy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+
+    &__title {
+        @include titleOld($black2);
+        margin-right: 10rem;
+    }
+
+    &__divider {
+        margin-bottom: 1rem;
+        width: 19.875rem;
+        height: 1px;
+        background-color: #F1f1f1;
+    }
+
+    &__text {
+        @include robotoText400($grey7, 1rem);
+        max-width: 323px;
+    }
+}

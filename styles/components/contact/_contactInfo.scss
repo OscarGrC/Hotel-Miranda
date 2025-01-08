@@ -1,0 +1,55 @@
+.contactInfo {
+    background-color: $whiteF;
+    padding-bottom: 0.5rem;
+    position: relative;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-item {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 17rem;
+        margin-right: 2rem;
+
+        &__backgroundIcon {
+            position: absolute;
+            z-index: 0;
+            right: -84px;
+            top: -14px;
+            width: 13rem !important;
+            height: 8rem;
+
+        }
+
+        img {
+            z-index: 1;
+            width: 36px;
+            margin-right: 2rem;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            z-index: 1;
+
+            p {
+                margin: 0;
+            }
+        }
+
+        &-title {
+            font-family: $old;
+            font-weight: 400;
+            color: $black2;
+            margin-bottom: 0.5rem;
+        }
+
+        &-info {
+            @include robotoText400($grey7, 0.875rem, 1.5rem);
+            max-width: 200px;
+        }
+    }
+}

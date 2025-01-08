@@ -198,6 +198,194 @@
   color: #BEAD8E;
 }
 
+.checkAvailability {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.checkAvailability__header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.checkAvailability__subtitle {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 0.95rem;
+  letter-spacing: 0.175rem;
+  text-align: left;
+  color: #777777;
+  letter-spacing: 2.8px !important;
+  margin-top: 2rem;
+  align-items: start;
+}
+.checkAvailability__title {
+  font-family: "Old Standard TT", serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: -0.09rem;
+  color: #222222;
+  text-align: left;
+}
+.checkAvailability__price-amount {
+  font-family: Archivo;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.69rem;
+  color: #BEAD8E;
+}
+.checkAvailability__price-night {
+  font-family: Archivo;
+  font-size: 0.813rem;
+  font-weight: 700;
+  line-height: 2.69rem;
+  color: #BEAD8E;
+  margin-left: -4px;
+}
+.checkAvailability__image {
+  width: 20.938rem;
+  height: 13.375rem;
+}
+.checkAvailability__form {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.checkAvailability__form__title {
+  font-family: Archivo;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.224rem;
+  letter-spacing: -0.034rem;
+  color: #222222;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.checkAvailability__form__field {
+  margin-left: 1.5rem;
+}
+.checkAvailability__form__field__label {
+  font-family: Archivo;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 0.952rem;
+  color: #222222;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.checkAvailability__form__field__container {
+  position: relative;
+}
+.checkAvailability__form__field__container__input {
+  font-family: Archivo;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 0.952rem;
+  color: #777777;
+  border: 1px solid #777777;
+  padding: 1.5rem;
+  width: 18.215rem;
+  background-color: #f8f8f8;
+  border: none;
+  margin-bottom: 0.5rem;
+}
+.checkAvailability__form__field__container__icon {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  left: 80%;
+  top: 29%;
+}
+.checkAvailability__form__button {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 0.95rem;
+  letter-spacing: 0.175rem;
+  color: #ffffff;
+  background-color: #BEAD8E;
+  width: 15.625rem;
+  height: 3.75rem;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  padding: 1.4rem 2.8rem;
+  width: auto !important;
+}
+.checkAvailability__form__button:hover {
+  background-color: #c0a87d;
+}
+
+.centerInPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roomDetailsText {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: left;
+  color: #777777;
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+  max-width: 359px;
+}
+
+.ServicesList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.ServicesList__title {
+  font-family: "Old Standard TT", serif;
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  color: #222222;
+  text-align: left;
+  padding-right: 12rem;
+}
+.ServicesList__divider {
+  margin-bottom: 1rem;
+  width: 19.875rem;
+  height: 1px;
+  background-color: #F1f1f1;
+}
+.ServicesList__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.ServicesList__list__item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.ServicesList__list__item__icon {
+  width: 1rem;
+  height: 1rem;
+}
+.ServicesList__list__item__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 1.09875rem;
+  color: #777777;
+  text-align: left;
+}
+
 .footer {
   font-family: "Roboto", sans-serif;
   background-color: #f8f8f8;
@@ -347,6 +535,97 @@
   color: #222222;
 }
 
+.RoomReview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 1rem;
+  padding-top: 4rem;
+}
+.RoomReview__imageContainer {
+  position: relative;
+  width: 9.375rem;
+  height: 9.375rem;
+}
+.RoomReview__imageContainer__profile {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.RoomReview__imageContainer__check {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  top: -4%;
+  left: 68%;
+}
+.RoomReview__imageContainer__tik {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  top: 7%;
+  left: 79%;
+}
+.RoomReview__title {
+  font-family: "Old Standard TT", serif;
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  color: "Old Standard TT", serif;
+  text-align: left;
+}
+.RoomReview__subtitle {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 0.952rem;
+  letter-spacing: 0.175rem;
+  text-align: left;
+  color: #BEAD8E;
+}
+.RoomReview__text {
+  font-family: "Archivo", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #777777;
+  max-width: 300px;
+}
+
+.CancellationPolicy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.CancellationPolicy__title {
+  font-family: "Old Standard TT", serif;
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  color: #222222;
+  text-align: left;
+  margin-right: 10rem;
+}
+.CancellationPolicy__divider {
+  margin-bottom: 1rem;
+  width: 19.875rem;
+  height: 1px;
+  background-color: #F1f1f1;
+}
+.CancellationPolicy__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: left;
+  color: #777777;
+  max-width: 323px;
+}
+
 html,
 * {
   box-sizing: border-box;
@@ -356,4 +635,4 @@ html,
 
 body {
   min-width: 320px;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=roomsDetails.css.map */
