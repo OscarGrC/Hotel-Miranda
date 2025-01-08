@@ -198,6 +198,109 @@
   color: #BEAD8E;
 }
 
+.aboutVideo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+.aboutVideo__videoContainer {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.aboutVideo__videoContainer__video {
+  width: 20.9rem;
+  height: 11.625rem;
+  border: none;
+}
+.aboutVideo__videoContainer__playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 5rem;
+  height: 5rem;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.aboutVideo__videoContainer__playButton img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.aboutVideo__text {
+  font-family: "Old Standard TT", serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.472rem;
+  color: #222222;
+  text-align: left;
+  letter-spacing: -0.0725rem;
+  max-width: 325px;
+  text-align: center;
+}
+
+.aboutServices {
+  display: grid;
+  grid-template-columns: repeat(2, 9.875rem);
+  grid-template-rows: repeat(2, 9.875rem);
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.aboutServices__item {
+  width: 9.875rem;
+  height: 9.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.aboutServices__item:hover {
+  background-color: #BEAD8E;
+}
+.aboutServices__item:hover .aboutServices__item__text {
+  color: #ffffff;
+}
+.aboutServices__item__icon {
+  width: 3.65rem;
+  height: 3.16rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.aboutServices__item:hover .aboutServices__item__icon {
+  display: none;
+}
+.aboutServices__item__icon-hover {
+  display: none;
+  width: 3.65rem;
+  height: 3.16rem;
+  margin-bottom: 0.5rem;
+}
+.aboutServices__item:hover .aboutServices__item__icon-hover {
+  display: block;
+}
+.aboutServices__item__text {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 0.875rem;
+  letter-spacing: 0.175rem;
+  text-align: left;
+  color: #222222;
+  letter-spacing: 0.15rem !important;
+  text-align: center !important;
+  transition: color 0.3s ease;
+}
+
 .footer {
   font-family: "Roboto", sans-serif;
   background-color: #f8f8f8;

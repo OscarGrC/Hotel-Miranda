@@ -1,0 +1,57 @@
+.aboutServices {
+    display: grid;
+    grid-template-columns: repeat(2, 9.875rem);
+    grid-template-rows: repeat(2, 9.875rem);
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+    &__item {
+        width: 9.875rem;
+        height: 9.875rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: $whiteF;
+        cursor: pointer;
+
+
+        &:hover {
+            background-color: $beige;
+
+            .aboutServices__item__text {
+                color: $whiteF;
+            }
+        }
+
+        &__icon {
+            width: 3.65rem;
+            height: 3.16rem;
+            margin-bottom: 0.5rem;
+            display: block;
+
+            .aboutServices__item:hover & {
+                display: none;
+            }
+        }
+
+        &__icon-hover {
+            display: none;
+            width: 3.65rem;
+            height: 3.16rem;
+            margin-bottom: 0.5rem;
+
+            .aboutServices__item:hover & {
+                display: block;
+            }
+        }
+
+        &__text {
+            @include sectionSubtitle($black2, 0.75rem, 0.875rem);
+            letter-spacing: 0.15rem !important;
+            text-align: center !important;
+            transition: color 0.3s ease;
+        }
+    }
+}

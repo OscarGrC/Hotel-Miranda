@@ -1,0 +1,47 @@
+.aboutVideo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 1rem;
+
+    &__videoContainer {
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        position: relative;
+
+        &__video {
+            width: 20.9rem;
+            height: 11.625rem;
+            border: none;
+        }
+
+        &__playButton {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 5rem;
+            height: 5rem;
+            background-color: $whiteF;
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            img {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+    }
+
+    &__text {
+        @include titleOld($black2, 2rem, 2.472rem);
+        letter-spacing: -0.0725rem;
+        max-width: 325px;
+        text-align: center;
+    }
+}
