@@ -2,12 +2,9 @@
 @import './mixins.scss';
 @import './components/navbar.scss';
 @import'./components/luxuryExperience.scss';
-@import './components/roomCard.scss';
-@import './components/roomsPagination.scss';
+@import'./components/roomsDetails/checkAvailability.scss';
+
 @import './components/footer.scss';
-
-
-
 
 
 html,
