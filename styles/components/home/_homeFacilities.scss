@@ -1,0 +1,78 @@
+.facilities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+
+    &-black {
+        background-color: $black2;
+    }
+
+    &__subtitle {
+        @include sectionSubtitle($grey7, 0.875rem, 0.952rem);
+        letter-spacing: 0.175rem;
+        margin-bottom: 1.5rem;
+
+        &-alt {
+            color: $whiteF;
+        }
+    }
+
+    &__title {
+        @include titleOld($black2, 3.5rem, 3.75rem);
+        letter-spacing: -0.075rem;
+        margin-bottom: 1rem;
+
+        &-alt {
+            color: $whiteF;
+        }
+    }
+
+    &__container {
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+
+        &-alt {
+            opacity: 0.1;
+            background-color: white;
+        }
+
+        &__icon {
+            margin-top: 8rem;
+            transition: transform 0.3s ease;
+            margin-bottom: 1rem;
+            margin-left: 1rem;
+        }
+
+        &__backgroundIcon {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            width: 7.938rem;
+            height: 6.125rem;
+        }
+
+        &__title {
+            @include titleOld($black2, 1.875rem, 1.875rem);
+            letter-spacing: -0.05625rem;
+            margin-bottom: 0.5rem;
+            margin-left: 1rem;
+        }
+
+        &__description {
+            color: $grey7;
+            font-family: $archivo;
+            font-size: 0.875rem;
+            font-weight: 400;
+            line-height: 1.5rem;
+            text-align: left;
+            max-width: 300px;
+            margin-left: 1rem;
+            margin-bottom: 3rem;
+        }
+    }
+}

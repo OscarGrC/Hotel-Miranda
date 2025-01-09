@@ -1,0 +1,377 @@
+.services {
+    height: auto;
+    width: auto;
+
+}
+
+.servicesBlack {
+    background-color: black;
+}
+
+.swiper {
+    width: 23.4rem;
+    height: 18rem;
+    background-color: blueviolet;
+    position: relative;
+
+    &__Counter {
+        background-color: transparent;
+        border: none;
+
+        .swiper-slide {
+            font-size: 18px;
+            text-align: center;
+            padding: 20px;
+            height: auto;
+            width: 100%;
+
+        }
+
+        .swiper-slide img {
+            object-fit: cover;
+            width: 20.9rem;
+            height: 14.4rem;
+        }
+
+
+        .swiper-pagination-bullet-active {
+            background: $beige;
+        }
+    }
+
+    &__HomeImage {
+        background-color: transparent;
+        border: none;
+        height: 26rem !important;
+
+        .swiper-slide {
+            font-size: 18px;
+            text-align: center;
+            padding: 20px;
+            height: 300px;
+            width: 100%;
+
+        }
+
+        .swiper-slide img {
+            object-fit: cover;
+            width: 20.9rem;
+            height: 20.9rem;
+
+        }
+
+        .swiper-pagination {
+            top: 356px !important;
+        }
+
+        .swiper-pagination-bullet-active {
+            background: $beige;
+        }
+    }
+
+    &__HomeRooms {
+        background-color: transparent;
+        border: none;
+        width: 23.4rem;
+        height: 40rem;
+
+        .swiper-slide {
+            font-size: 18px;
+            text-align: center;
+
+            height: auto;
+            width: 375px;
+            background-color: black;
+
+            &-white {
+                background-color: $whiteF !important;
+            }
+
+            &__subtitle {
+                font-family: $archivo;
+                font-size: 0.875rem;
+                font-weight: 500;
+                line-height: 0.952rem;
+                letter-spacing: 0.175rem;
+                text-align: center;
+                color: $beige;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+
+                &-alt {
+                    @include sectionSubtitle($grey7, 0.875rem, 0.952rem);
+                    text-align: center;
+                    padding-bottom: 2rem;
+                }
+            }
+
+            &__title {
+                @include titleOld($whiteF, 2.5rem, 3rem);
+                text-align: center !important;
+                padding-bottom: 3rem;
+
+                &-alt {
+                    @include titleOld($black2, 3.5rem, 3.75rem);
+                    letter-spacing: -0.075rem;
+                    padding-bottom: 2rem;
+                    text-align: center;
+                    max-width: 339px;
+                }
+            }
+
+            &__titleAlt {
+                padding-top: 2rem;
+                @include titleOld($black2, 1.875rem, 1.875rem);
+                padding-bottom: 0.5rem;
+            }
+        }
+
+
+
+        .swiper-button-next {
+            color: black;
+            height: 2em;
+            width: auto;
+            position: absolute;
+            right: 0.5em;
+            top: 51%;
+            padding: 10px;
+            height: 2rem;
+            width: 2rem;
+            background-color: white;
+
+            &:hover {
+                background-color: $beige;
+            }
+
+
+        }
+
+        .swiper-button-prev {
+            color: black;
+            position: absolute;
+            left: 0.5em;
+            top: 51%;
+            background-color: white;
+            padding: 10px;
+            height: 2rem;
+            width: 2rem;
+            font-size: 0.6rem;
+
+            &:hover {
+                background-color: $beige;
+            }
+
+
+
+        }
+
+        .swiper-button-prev:after {
+            font-size: 0.6rem;
+        }
+
+        .swiper-button-next:after {
+            font-size: 0.6rem;
+        }
+
+    }
+
+    &__Contact {
+        background-color: transparent;
+        border: none;
+        width: 23.4rem;
+        height: 40rem;
+
+        .swiper-slide {
+            font-size: 18px;
+            text-align: center;
+            padding: 20px;
+            padding-left: 1rem;
+            height: auto;
+            width: 375px;
+            background-color: black;
+
+            &-white {
+                background-color: $whiteF !important;
+            }
+
+            &__subtitle {
+                font-family: $archivo;
+                font-size: 0.875rem;
+                font-weight: 500;
+                line-height: 0.952rem;
+                letter-spacing: 0.175rem;
+                text-align: center;
+                color: $beige;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+
+                &-alt {
+                    @include sectionSubtitle($grey7, 0.875rem, 0.952rem);
+                    text-align: center;
+                    padding-bottom: 2rem;
+                }
+            }
+
+            &__title {
+                @include titleOld($whiteF, 2.5rem, 3rem);
+                text-align: center !important;
+                padding-bottom: 3rem;
+
+                &-alt {
+                    @include titleOld($black2, 3.5rem, 3.75rem);
+                    letter-spacing: -0.075rem;
+                    padding-bottom: 2rem;
+                    text-align: center;
+                    max-width: 339px;
+                }
+            }
+
+            &__titleAlt {
+                padding-top: 2rem;
+                @include titleOld($black2, 1.875rem, 1.875rem);
+                padding-bottom: 0.5rem;
+            }
+        }
+
+
+
+        .swiper-button-next {
+            color: black;
+            height: 2em;
+            width: auto;
+            position: absolute;
+            right: 1em;
+            top: 43%;
+            padding: 10px;
+            height: 2rem;
+            width: 2rem;
+            background-color: white;
+
+            &:hover {
+                background-color: $beige;
+            }
+
+            &-alt {
+                top: 38% !important;
+            }
+        }
+
+        .swiper-button-prev {
+            color: black;
+            position: absolute;
+            left: 1em;
+            top: 43%;
+            background-color: white;
+            padding: 10px;
+            height: 2rem;
+            width: 2rem;
+            font-size: 0.6rem;
+
+            &:hover {
+                background-color: $beige;
+            }
+
+            &-alt {
+                top: 38% !important;
+            }
+
+        }
+
+        .swiper-button-prev:after {
+            font-size: 0.6rem;
+        }
+
+        .swiper-button-next:after {
+            font-size: 0.6rem;
+        }
+
+    }
+
+    &__Menu {
+        background-color: transparent;
+        border: none;
+        width: 25rem;
+        height: 30rem;
+
+        .swiper-slide {
+            font-size: 18px;
+            text-align: center;
+            padding: 20px;
+            padding-left: 1rem;
+            height: auto;
+            width: 375px;
+            background-color: $whiteF;
+        }
+
+        .swiper-button-next {
+            color: black;
+            height: 2em;
+            width: auto;
+            position: absolute;
+            right: 1em;
+            top: 97%;
+            padding: 10px;
+            height: 2rem;
+            width: 2rem;
+            background-color: white;
+
+            &:hover {
+                background-color: $beige;
+            }
+
+
+        }
+
+        .swiper-button-prev {
+            color: black;
+            position: absolute;
+            left: 30em;
+            top: 97%;
+            background-color: white;
+            padding: 10px;
+            height: 2rem;
+            width: 2rem;
+            font-size: 0.6rem;
+
+            &:hover {
+                background-color: $beige;
+            }
+
+
+
+        }
+
+        .swiper-button-prev:after {
+            font-size: 0.6rem;
+        }
+
+        .swiper-button-next:after {
+            font-size: 0.6rem;
+        }
+
+    }
+
+    &__Facilities {
+        background-color: black;
+        border: none;
+        height: 37rem;
+
+        .swiper-slide {
+            font-size: 18px;
+            text-align: center;
+            padding: 20px;
+            height: 40rem;
+            width: 100%;
+
+        }
+
+        .swiper-pagination-bullet {
+            background: $whiteF;
+        }
+
+        .swiper-pagination-bullet-active {
+            background: $beige;
+        }
+    }
+}

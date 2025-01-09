@@ -1,18 +1,14 @@
 @import '../../globalVariables.scss';
 @import '../../mixins.scss';
 @import '../../components/navbar.scss';
-@import '../../components/footer.scss';
 @import'../../components/luxuryExperience.scss';
-@import '../../components/home/reservationCalendar.scss';
-@import '../../components/home/homeAboutUs.scss';
-@import '../../components/home/homeVideo.scss';
-@import '../../components/home/homeInfo.scss';
+@import '../../components/aboutUs/aboutVideo.scss';
+@import '../../components/aboutUs/aboutServices.scss';
+@import '../../components/aboutUs/aboutRestaurant.scss';
 @import '../../swiper.scss';
-@import '../../components/roomCard.scss';
-@import '../../components/home/homeMenu.scss';
+@import '../../components/aboutUs/aboutCounter.scss';
+@import '../../components/footer.scss';
 @import '../../components/home/homeFacilities.scss';
-
-
 
 html,
 * {

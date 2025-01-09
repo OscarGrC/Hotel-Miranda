@@ -204,12 +204,24 @@
   text-align: center;
   position: relative;
 }
+.roomCard-homeRooms {
+  width: 375px;
+  padding-top: 0rem !important;
+  padding-bottom: 2rem;
+}
+.roomCard-slider {
+  padding-top: 0rem !important;
+  padding-bottom: 2rem;
+}
 .roomCard__image {
   width: 335px;
   height: 13.625rem;
   -o-object-fit: cover;
      object-fit: cover;
   margin-bottom: 2rem;
+}
+.roomCard__image-homeRooms {
+  width: 375px;
 }
 .roomCard__icons {
   background-color: #ffffff;
@@ -220,6 +232,14 @@
   top: 250px;
   left: 10%;
   position: absolute;
+}
+.roomCard__icons-slider {
+  top: 202px;
+  left: 10%;
+}
+.roomCard__icons-sliderHomeRooms {
+  top: -14px;
+  left: 14%;
 }
 .roomCard__icons__icon {
   width: 1rem;
@@ -246,6 +266,9 @@
   margin-bottom: 1.5rem;
   max-width: 318px;
 }
+.roomCard__description-alt {
+  margin-left: 2rem;
+}
 .roomCard__price-booking {
   display: block;
 }
@@ -257,6 +280,13 @@
   color: #BEAD8E;
   display: inline;
   margin-right: 0.5rem;
+}
+.roomCard__price-booking__price-alt {
+  font-size: 2rem;
+}
+.roomCard__price-booking__price-alt2 {
+  font-size: 0.875rem;
+  margin-left: -13px;
 }
 .roomCard__price-booking__booking {
   font-family: "Archivo", sans-serif;

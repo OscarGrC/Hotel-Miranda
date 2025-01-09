@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-
-
+    padding-bottom: 3rem;
+    padding-top: 3rem;
 
     &__subtext {
         @include sectionSubtitle($grey7, 0.875rem, 1.023rem);

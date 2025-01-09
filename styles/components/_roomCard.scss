@@ -6,11 +6,26 @@
     text-align: center;
     position: relative;
 
+    &-homeRooms {
+        width: 375px;
+        padding-top: 0rem !important;
+        padding-bottom: 2rem;
+    }
+
+    &-slider {
+        padding-top: 0rem !important;
+        padding-bottom: 2rem;
+    }
+
     &__image {
         width: 335px;
         height: 13.625rem;
         object-fit: cover;
         margin-bottom: 2rem;
+
+        &-homeRooms {
+            width: 375px;
+        }
     }
 
     &__icons {
@@ -22,6 +37,16 @@
         top: 250px;
         left: 10%;
         position: absolute;
+
+        &-slider {
+            top: 202px;
+            left: 10%;
+        }
+
+        &-sliderHomeRooms {
+            top: -14px;
+            left: 14%;
+        }
 
         &__icon {
             width: 1rem;
@@ -50,6 +75,10 @@
         color: $grey7;
         margin-bottom: 1.5rem;
         max-width: 318px;
+
+        &-alt {
+            margin-left: 2rem;
+        }
     }
 
     &__price-booking {
@@ -63,6 +92,15 @@
             color: $beige;
             display: inline;
             margin-right: 0.5rem;
+
+            &-alt {
+                font-size: 2rem;
+            }
+
+            &-alt2 {
+                font-size: 0.875rem;
+                margin-left: -13px;
+            }
         }
 
         &__booking {

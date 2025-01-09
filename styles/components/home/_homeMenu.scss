@@ -1,0 +1,79 @@
+.homeMenu {
+    text-align: left;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &__Img {
+        position: absolute;
+        right: 0%;
+        top: 0%;
+
+    }
+
+    &__subtitle {
+        @include sectionSubtitle($grey7, 0.875rem, 0.952rem);
+        letter-spacing: 0.175rem;
+        margin-bottom: 0.5rem;
+        padding-top: 5.5rem;
+        margin-right: 17rem;
+        margin-bottom: 2rem;
+    }
+
+    &__title {
+        @include titleOld($black2, 3.5rem, 3.75rem);
+        letter-spacing: -0.075rem;
+        margin-bottom: 1.5rem;
+        max-width: 334px;
+    }
+
+    &__menuItem {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+        margin-left: 0.5rem;
+
+        &:hover {
+            background-color: $black2;
+        }
+
+        &:hover &__content__title {
+            color: $whiteF;
+        }
+
+        &:hover &__content__description {
+            color: $whiteF;
+        }
+
+        &__image {
+            width: 7.5rem;
+            height: 7.5rem;
+            object-fit: cover;
+        }
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin-left: 1rem;
+
+            &__title {
+                @include titleOld($black2, 1.5rem, 1.5rem);
+                letter-spacing: -0.045rem;
+                margin-bottom: 1rem;
+                margin-top: 0.5rem;
+            }
+
+            &__description {
+                @include robotoText400($black2, 0.875rem, 1.5rem);
+                max-width: 194px;
+            }
+        }
+    }
+
+
+}

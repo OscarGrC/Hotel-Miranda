@@ -365,11 +365,359 @@
   background-color: #c0a87d;
 }
 
+.services {
+  height: auto;
+  width: auto;
+}
+
+.servicesBlack {
+  background-color: black;
+}
+
+.swiper {
+  width: 23.4rem;
+  height: 18rem;
+  background-color: blueviolet;
+  position: relative;
+}
+.swiper__Counter {
+  background-color: transparent;
+  border: none;
+}
+.swiper__Counter .swiper-slide {
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  height: auto;
+  width: 100%;
+}
+.swiper__Counter .swiper-slide img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 20.9rem;
+  height: 14.4rem;
+}
+.swiper__Counter .swiper-pagination-bullet-active {
+  background: #BEAD8E;
+}
+.swiper__HomeImage {
+  background-color: transparent;
+  border: none;
+  height: 26rem !important;
+}
+.swiper__HomeImage .swiper-slide {
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  height: 300px;
+  width: 100%;
+}
+.swiper__HomeImage .swiper-slide img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 20.9rem;
+  height: 20.9rem;
+}
+.swiper__HomeImage .swiper-pagination {
+  top: 356px !important;
+}
+.swiper__HomeImage .swiper-pagination-bullet-active {
+  background: #BEAD8E;
+}
+.swiper__HomeRooms {
+  background-color: transparent;
+  border: none;
+  width: 23.4rem;
+  height: 40rem;
+}
+.swiper__HomeRooms .swiper-slide {
+  font-size: 18px;
+  text-align: center;
+  height: auto;
+  width: 375px;
+  background-color: black;
+}
+.swiper__HomeRooms .swiper-slide-white {
+  background-color: #ffffff !important;
+}
+.swiper__HomeRooms .swiper-slide__subtitle {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 0.952rem;
+  letter-spacing: 0.175rem;
+  text-align: center;
+  color: #BEAD8E;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.swiper__HomeRooms .swiper-slide__subtitle-alt {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 0.952rem;
+  letter-spacing: 0.175rem;
+  text-align: left;
+  color: #777777;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.swiper__HomeRooms .swiper-slide__title {
+  font-family: "Old Standard TT", serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #ffffff;
+  text-align: left;
+  text-align: center !important;
+  padding-bottom: 3rem;
+}
+.swiper__HomeRooms .swiper-slide__title-alt {
+  font-family: "Old Standard TT", serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 3.75rem;
+  color: #222222;
+  text-align: left;
+  letter-spacing: -0.075rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  max-width: 339px;
+}
+.swiper__HomeRooms .swiper-slide__titleAlt {
+  padding-top: 2rem;
+  font-family: "Old Standard TT", serif;
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  color: #222222;
+  text-align: left;
+  padding-bottom: 0.5rem;
+}
+.swiper__HomeRooms .swiper-button-next {
+  color: black;
+  height: 2em;
+  width: auto;
+  position: absolute;
+  right: 0.5em;
+  top: 51%;
+  padding: 10px;
+  height: 2rem;
+  width: 2rem;
+  background-color: white;
+}
+.swiper__HomeRooms .swiper-button-next:hover {
+  background-color: #BEAD8E;
+}
+.swiper__HomeRooms .swiper-button-prev {
+  color: black;
+  position: absolute;
+  left: 0.5em;
+  top: 51%;
+  background-color: white;
+  padding: 10px;
+  height: 2rem;
+  width: 2rem;
+  font-size: 0.6rem;
+}
+.swiper__HomeRooms .swiper-button-prev:hover {
+  background-color: #BEAD8E;
+}
+.swiper__HomeRooms .swiper-button-prev:after {
+  font-size: 0.6rem;
+}
+.swiper__HomeRooms .swiper-button-next:after {
+  font-size: 0.6rem;
+}
+.swiper__Contact {
+  background-color: transparent;
+  border: none;
+  width: 23.4rem;
+  height: 40rem;
+}
+.swiper__Contact .swiper-slide {
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  padding-left: 1rem;
+  height: auto;
+  width: 375px;
+  background-color: black;
+}
+.swiper__Contact .swiper-slide-white {
+  background-color: #ffffff !important;
+}
+.swiper__Contact .swiper-slide__subtitle {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 0.952rem;
+  letter-spacing: 0.175rem;
+  text-align: center;
+  color: #BEAD8E;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.swiper__Contact .swiper-slide__subtitle-alt {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 0.952rem;
+  letter-spacing: 0.175rem;
+  text-align: left;
+  color: #777777;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.swiper__Contact .swiper-slide__title {
+  font-family: "Old Standard TT", serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #ffffff;
+  text-align: left;
+  text-align: center !important;
+  padding-bottom: 3rem;
+}
+.swiper__Contact .swiper-slide__title-alt {
+  font-family: "Old Standard TT", serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 3.75rem;
+  color: #222222;
+  text-align: left;
+  letter-spacing: -0.075rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  max-width: 339px;
+}
+.swiper__Contact .swiper-slide__titleAlt {
+  padding-top: 2rem;
+  font-family: "Old Standard TT", serif;
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  color: #222222;
+  text-align: left;
+  padding-bottom: 0.5rem;
+}
+.swiper__Contact .swiper-button-next {
+  color: black;
+  height: 2em;
+  width: auto;
+  position: absolute;
+  right: 1em;
+  top: 43%;
+  padding: 10px;
+  height: 2rem;
+  width: 2rem;
+  background-color: white;
+}
+.swiper__Contact .swiper-button-next:hover {
+  background-color: #BEAD8E;
+}
+.swiper__Contact .swiper-button-next-alt {
+  top: 38% !important;
+}
+.swiper__Contact .swiper-button-prev {
+  color: black;
+  position: absolute;
+  left: 1em;
+  top: 43%;
+  background-color: white;
+  padding: 10px;
+  height: 2rem;
+  width: 2rem;
+  font-size: 0.6rem;
+}
+.swiper__Contact .swiper-button-prev:hover {
+  background-color: #BEAD8E;
+}
+.swiper__Contact .swiper-button-prev-alt {
+  top: 38% !important;
+}
+.swiper__Contact .swiper-button-prev:after {
+  font-size: 0.6rem;
+}
+.swiper__Contact .swiper-button-next:after {
+  font-size: 0.6rem;
+}
+.swiper__Menu {
+  background-color: transparent;
+  border: none;
+  width: 25rem;
+  height: 30rem;
+}
+.swiper__Menu .swiper-slide {
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  padding-left: 1rem;
+  height: auto;
+  width: 375px;
+  background-color: #ffffff;
+}
+.swiper__Menu .swiper-button-next {
+  color: black;
+  height: 2em;
+  width: auto;
+  position: absolute;
+  right: 1em;
+  top: 97%;
+  padding: 10px;
+  height: 2rem;
+  width: 2rem;
+  background-color: white;
+}
+.swiper__Menu .swiper-button-next:hover {
+  background-color: #BEAD8E;
+}
+.swiper__Menu .swiper-button-prev {
+  color: black;
+  position: absolute;
+  left: 30em;
+  top: 97%;
+  background-color: white;
+  padding: 10px;
+  height: 2rem;
+  width: 2rem;
+  font-size: 0.6rem;
+}
+.swiper__Menu .swiper-button-prev:hover {
+  background-color: #BEAD8E;
+}
+.swiper__Menu .swiper-button-prev:after {
+  font-size: 0.6rem;
+}
+.swiper__Menu .swiper-button-next:after {
+  font-size: 0.6rem;
+}
+.swiper__Facilities {
+  background-color: black;
+  border: none;
+  height: 37rem;
+}
+.swiper__Facilities .swiper-slide {
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  height: 40rem;
+  width: 100%;
+}
+.swiper__Facilities .swiper-pagination-bullet {
+  background: #ffffff;
+}
+.swiper__Facilities .swiper-pagination-bullet-active {
+  background: #BEAD8E;
+}
+
 .aboutCounter {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
 }
 .aboutCounter__subtext {
   font-family: "Archivo", sans-serif;

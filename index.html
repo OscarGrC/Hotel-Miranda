@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <title>Hotel Miranda</title>
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -144,6 +145,16 @@
                 <img src="./resources/icons/countleft.png" class="aboutCounter__item__icon" />
             </div>
         </div>
+        <!-- Slider main container -->
+        <section class="services">
+            <div class="swiper swiper__Counter">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./resources/images/luxRoom.jpg" /></div>
+                    <div class="swiper-slide"><img src="./resources/images/luxRoom2.jpg" /></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
     </div>
 
 
@@ -234,5 +245,7 @@
 <!--Scripts-->
 <script src="./js/navbar.js"></script>
 <script src="./js/aboutVideo.js"></script>
+<script src="./js/swiper.js"></script>
+<script src="./js/swiperCounter.js"></script>
 
 </html>
