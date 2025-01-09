@@ -1,120 +1,238 @@
-.navbar {
-    display: block;
+.header {
     position: relative;
-    width: 100%;
-    background-color: $whiteF;
-    color: $black1;
-    font-family: $archivo;
-    line-height: 0.8rem;
-    padding: 1rem;
-    transition: box-shadow 0.3s ease-in-out;
 
-    &.navbar--expanded {
-        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-    }
+    &__slogan {
+        visibility: hidden;
+        @include robotoText400($whiteF, 1rem, 1.172rem);
 
-    &__menu-icon {
-        display: inline-block;
-        width: 18px;
-        margin-right: 2rem;
-        vertical-align: middle;
-        cursor: pointer;
-
-        img {
-            width: 100%;
-        }
     }
 
 
-    &__logo {
-        display: inline-block;
-        text-align: left;
-        width: 50%;
+
+    &__navbar {
+        display: block;
         position: relative;
-
-
-        &-start {
-            display: inline-block;
-            font-size: 1.1rem;
-            font-weight: 700;
-            color: $black1;
-            vertical-align: middle;
-            margin-right: 1rem;
-            padding: 10px 10px;
-            box-shadow: 0px 1px 2px 0px #8B8B8B40;
-            text-align: center;
-        }
-
-        &__text {
-            letter-spacing: 1px;
-            display: inline-block;
-            vertical-align: middle;
-            text-align: left;
-            width: 50%;
-
-            &-top {
-                display: block;
-                font-size: 0.7rem;
-                font-weight: 700;
-            }
-
-            &-bottom {
-                display: block;
-                font-size: 0.7rem;
-                color: $black1;
-                font-weight: 400;
-            }
-        }
-    }
-
-    &__icons {
-        display: inline-block;
-        float: right;
-
-        &-icon {
-            display: inline-block;
-            width: 24px;
-            padding-top: 0.1rem;
-            margin-left: 1rem;
-            margin-right: 0.2em;
-            cursor: pointer;
-        }
-    }
-
-    &__dropdown {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
         width: 100%;
         background-color: $whiteF;
-        z-index: 2;
+        color: $black1;
+        font-family: $archivo;
+        line-height: 0.8rem;
+        padding: 1rem;
+        transition: box-shadow 0.3s ease-in-out;
 
-        padding-bottom: 1.8rem;
+        &--expanded {
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+        }
 
-        ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
+        &-menu-icon {
+            display: inline-block;
+            width: 18px;
+            margin-right: 2rem;
+            vertical-align: middle;
+            cursor: pointer;
 
-            li {
+            img {
+                width: 100%;
+            }
+        }
+
+        &-logo {
+            display: inline-block;
+            text-align: left;
+            width: 50%;
+            position: relative;
+
+            &-start {
+                display: inline-block;
+                font-size: 1.1rem;
+                font-weight: 700;
+                color: $black1;
+                vertical-align: middle;
+                margin-right: 1rem;
+                padding: 10px 10px;
+                box-shadow: 0px 1px 2px 0px #8B8B8B40;
+                text-align: center;
+            }
+
+            &-text {
+                letter-spacing: 1px;
+                display: inline-block;
+                vertical-align: middle;
                 text-align: left;
-                border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+                width: 50%;
 
-                a {
+                &-top {
                     display: block;
-                    padding-top: 1.5rem;
-                    padding-left: 1rem;
-                    color: $black1;
-                    text-decoration: none;
-                    font-weight: 600;
-                    font-size: 0.9rem;
+                    font-size: 0.7rem;
+                    font-weight: 700;
+                }
 
-                    &:hover {
-                        background-color: $beige;
+                &-bottom {
+                    display: block;
+                    font-size: 0.7rem;
+                    color: $black1;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        &-icons {
+            display: inline-block;
+            float: right;
+
+            &-icon {
+                display: inline-block;
+                width: 24px;
+                padding-top: 0.1rem;
+                margin-left: 1rem;
+                margin-right: 0.2em;
+                cursor: pointer;
+            }
+        }
+
+        &-dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background-color: $whiteF;
+            z-index: 2;
+            padding-bottom: 1.8rem;
+
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    text-align: left;
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+                    a {
+                        display: block;
+                        padding-top: 1.5rem;
+                        padding-left: 1rem;
+                        color: $black1;
+                        text-decoration: none;
+                        font-weight: 600;
+                        font-size: 0.9rem;
+
+                        &:hover {
+                            background-color: $beige;
+                        }
                     }
                 }
             }
+        }
+    }
+
+    @media only screen and (min-width: 1000px) {
+        background-color: black;
+        height: 6.25rem;
+
+        &__slogan {
+            visibility: visible;
+            position: absolute;
+            left: 12.5%;
+            top: 12%;
+        }
+
+        &__navbar {
+            position: absolute;
+            top: 42px;
+            left: 12.5%;
+            width: 80%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            vertical-align: middle;
+
+
+            &-menu-icon {
+                display: none;
+            }
+
+            &-logo {
+                width: 81%;
+
+                &-start {
+                    width: 80px;
+                    height: 5rem;
+                    @include sectionSubtitle($black1, 2.5rem, 2.72rem);
+                    text-align: center;
+                    vertical-align: middle;
+                    line-height: 4rem;
+                    margin-right: 1.5rem;
+                    box-shadow: 0px 14px 24px 0px #8B8B8B40;
+
+                }
+
+                &-text {
+
+                    &-top {
+                        line-height: 1.768rem;
+                        font-size: 1.625rem;
+                    }
+
+                    &-bottom {
+                        line-height: 1.768rem;
+                        font-size: 1.625rem;
+                    }
+                }
+            }
+
+            &-icons {
+                width: 3.75rem;
+                height: 3.75rem;
+                text-align: center;
+                border: 2px solid #8585854D;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                vertical-align: middle;
+                margin-right: 2rem;
+
+                &-icon {
+                    width: 1.5rem;
+                    display: inline-block;
+                }
+            }
+
+            &-dropdown {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: absolute;
+                top: 17%;
+                left: 30%;
+                width: auto;
+                background: none;
+                padding: 0;
+                border: none;
+
+                ul {
+                    display: flex;
+
+                    li {
+                        margin: 0 0.5rem;
+
+                        a {
+                            font-family: $archivo;
+                            font-size: 1rem;
+                            line-height: 1.741rem;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+
+
         }
     }
 }
