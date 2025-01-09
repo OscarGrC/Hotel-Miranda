@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
         menuOpen = !menuOpen;
         dropdownMenu.style.display = menuOpen ? "block" : "none";
         menuToggleIcon.src = menuOpen
-            ? "./resources/icons/close.png"
-            : "./resources/icons/navHambur.png";
+            ? "../resources/icons/close.png"
+            : "../resources/icons/navHambur.png";
         document.querySelector(".navbar").classList.toggle("navbar--expanded", menuOpen);
     });
 });
