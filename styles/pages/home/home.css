@@ -446,6 +446,7 @@
   line-height: 1.0875rem;
   letter-spacing: -0.03rem;
   display: inline;
+  text-decoration: none;
 }
 .luxuryExperience__footer__text:first-child {
   color: #222222;
