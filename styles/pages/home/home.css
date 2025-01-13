@@ -1240,12 +1240,13 @@
 
 .homeMenu {
   text-align: left;
-  padding: 2rem 1rem;
+  padding: 2rem 0rem;
   margin-top: 3rem;
   position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
 }
 .homeMenu__Img {
   position: absolute;
