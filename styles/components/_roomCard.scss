@@ -113,4 +113,51 @@
             margin-left: 0.5rem;
         }
     }
+
+    @media only screen and (min-width: 1000px) {
+        width: 500px;
+
+        &__image {
+            width: 500px !important;
+            height: 20rem;
+
+            &-homeRooms {
+                width: 375px;
+            }
+        }
+
+        &__icons {
+            &-sliderHomeRooms {
+                top: -19px;
+                left: 16%;
+            }
+
+            &__icon {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+
+        &__title {
+            font-size: 2.5rem;
+        }
+
+        &__description {
+            max-width: 439px;
+        }
+
+        &__price-booking {
+            display: block;
+
+            &__price {
+                &-alt {
+                    font-size: 3rem;
+                }
+
+                &-alt2 {
+                    font-size: 1.875rem;
+                }
+            }
+        }
+    }
 }

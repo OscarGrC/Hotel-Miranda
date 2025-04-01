@@ -58,4 +58,31 @@
             }
         }
     }
+
+    @media only screen and (min-width: 1000px) {
+        text-align: left;
+
+        &__subtitle {
+            margin-top: 4rem;
+            margin-left: 20%;
+            max-width: 380px;
+        }
+
+        &__title {
+            margin-left: 20%;
+            font-size: 5.5rem;
+            line-height: 4.75rem;
+            max-width: 530px;
+        }
+
+        &__button-tour {
+            margin-left: 20%;
+            display: inline-block
+        }
+
+        &__button-learn {
+            margin-left: 1rem;
+            display: inline-block;
+        }
+    }
 }

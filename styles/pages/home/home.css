@@ -362,6 +362,44 @@
   font-weight: 700;
   color: #222222;
 }
+@media only screen and (min-width: 1000px) {
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto auto;
+    gap: 1rem;
+    align-items: start;
+    /* Columna izquierda (Logo, Texto, Social) */
+  }
+  .footer__logo {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .footer__text {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .footer__social {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .footer__services {
+    grid-column: 2;
+    grid-row: 1/4;
+  }
+  .footer__contact {
+    grid-column: 3;
+    grid-row: 1/3;
+  }
+  .footer__copyright {
+    grid-column: 1/4;
+    grid-row: 4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+  }
+}
 
 .luxuryExperience {
   background-color: #333333;
@@ -454,6 +492,30 @@
 .luxuryExperience__footer__text:last-child {
   color: #BEAD8E;
 }
+@media only screen and (min-width: 1000px) {
+  .luxuryExperience {
+    text-align: left;
+  }
+  .luxuryExperience__subtitle {
+    margin-top: 4rem;
+    margin-left: 20%;
+    max-width: 380px;
+  }
+  .luxuryExperience__title {
+    margin-left: 20%;
+    font-size: 5.5rem;
+    line-height: 4.75rem;
+    max-width: 530px;
+  }
+  .luxuryExperience__button-tour {
+    margin-left: 20%;
+    display: inline-block;
+  }
+  .luxuryExperience__button-learn {
+    margin-left: 1rem;
+    display: inline-block;
+  }
+}
 
 .reservationCalendar {
   background-color: #222222;
@@ -520,6 +582,22 @@
 }
 .reservationCalendar__button:hover {
   background-color: #c0a87d;
+}
+@media only screen and (min-width: 1300px) {
+  .reservationCalendar {
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  .reservationCalendar__item {
+    margin-bottom: 2rem;
+    text-align: left;
+    margin-left: 10%;
+  }
+  .reservationCalendar__button {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-right: 2.5rem;
+  }
 }
 
 .homeAboutUs {
@@ -652,6 +730,37 @@
 .homeAboutUs .homeAboutUs__Card__container__text-luxury {
   color: #ffffff;
 }
+@media only screen and (min-width: 1000px) {
+  .homeAboutUs {
+    align-items: flex-start;
+    margin-left: 10%;
+  }
+  .homeAboutUs__title {
+    max-width: 640px;
+  }
+  .homeAboutUs__text {
+    font-size: 1.2rem;
+    max-width: 640px;
+  }
+  .homeAboutUs .homeAboutUs__Card {
+    max-width: 41rem;
+  }
+  .homeAboutUs .homeAboutUs__Card__image {
+    width: 41rem;
+    height: 21.75rem;
+  }
+  .homeAboutUs .homeAboutUs__Card__container__icon {
+    width: 5rem;
+    height: 4rem;
+  }
+  .homeAboutUs .homeAboutUs__Card__container__title {
+    font-size: 2.875rem;
+  }
+  .homeAboutUs .homeAboutUs__Card__container__text {
+    font-size: 1.2rem;
+    max-width: 600px;
+  }
+}
 
 .homeVideo {
   background-color: #222222;
@@ -742,6 +851,37 @@
 .homeVideo__button:hover {
   background-color: #c0a87d;
 }
+@media only screen and (min-width: 1000px) {
+  .homeVideo {
+    align-items: flex-start;
+  }
+  .homeVideo__intro-title {
+    margin-left: 10%;
+  }
+  .homeVideo__main-title {
+    margin-left: 10%;
+    max-width: 800px;
+  }
+  .homeVideo__description {
+    margin-left: 10%;
+    font-size: 1.2rem;
+    max-width: 700px;
+  }
+  .homeVideo__video-container__video {
+    width: 500px;
+    height: 298px;
+  }
+  .homeVideo__video-container__play-button {
+    left: 251px;
+  }
+  .homeVideo__video-container__play-button img {
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+  .homeVideo__button {
+    margin-left: 10%;
+  }
+}
 
 .homeInfo {
   background-color: #222222;
@@ -788,6 +928,18 @@
   line-height: 1.36rem;
   text-align: center;
   color: #777777;
+}
+@media only screen and (min-width: 1000px) {
+  .homeInfo {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem;
+  }
+  .homeInfo__item {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 }
 
 .services {
@@ -842,6 +994,12 @@
      object-fit: cover;
   width: 20.9rem;
   height: 20.9rem;
+}
+@media only screen and (min-width: 1000px) {
+  .swiper__HomeImage .swiper-slide img {
+    width: 31.9rem;
+    height: 22.9rem;
+  }
 }
 .swiper__HomeImage .swiper-pagination {
   top: 356px !important;
@@ -953,6 +1111,31 @@
 }
 .swiper__HomeRooms .swiper-button-next:after {
   font-size: 0.6rem;
+}
+@media only screen and (min-width: 1000px) {
+  .swiper__HomeRooms {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 40rem;
+    height: 40rem;
+  }
+  .swiper__HomeRooms .swiper-slide__subtitle-alt {
+    font-size: 1.3rem;
+  }
+  .swiper__HomeRooms .swiper-slide__title-alt {
+    margin-left: 58px;
+    max-width: 539px;
+  }
+  .swiper__HomeRooms .swiper-slide__titleAlt {
+    padding-top: 2rem;
+    font-family: "Old Standard TT", serif;
+    font-size: 1.875rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    color: #222222;
+    text-align: left;
+    padding-bottom: 0.5rem;
+  }
 }
 .swiper__Contact {
   background-color: transparent;
@@ -1135,6 +1318,12 @@
 .swiper__Facilities .swiper-pagination-bullet-active {
   background: #BEAD8E;
 }
+@media only screen and (min-width: 1000px) {
+  .swiper {
+    width: 50.4rem;
+    height: 37rem;
+  }
+}
 
 .roomCard {
   width: 335px;
@@ -1237,6 +1426,41 @@
   display: inline;
   margin-left: 0.5rem;
 }
+@media only screen and (min-width: 1000px) {
+  .roomCard {
+    width: 500px;
+  }
+  .roomCard__image {
+    width: 500px !important;
+    height: 20rem;
+  }
+  .roomCard__image-homeRooms {
+    width: 375px;
+  }
+  .roomCard__icons-sliderHomeRooms {
+    top: -19px;
+    left: 16%;
+  }
+  .roomCard__icons__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .roomCard__title {
+    font-size: 2.5rem;
+  }
+  .roomCard__description {
+    max-width: 439px;
+  }
+  .roomCard__price-booking {
+    display: block;
+  }
+  .roomCard__price-booking__price-alt {
+    font-size: 3rem;
+  }
+  .roomCard__price-booking__price-alt2 {
+    font-size: 1.875rem;
+  }
+}
 
 .homeMenu {
   text-align: left;
@@ -1326,6 +1550,37 @@
   color: #222222;
   max-width: 194px;
 }
+@media only screen and (min-width: 1000px) {
+  .homeMenu {
+    align-items: flex-start;
+  }
+  .homeMenu__Img {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+  }
+  .homeMenu__subtitle {
+    font-size: 1.5rem;
+    margin-left: 10%;
+  }
+  .homeMenu__title {
+    margin-left: 10%;
+    max-width: 634px;
+  }
+  .homeMenu__menuItem {
+    margin-left: 15%;
+  }
+  .homeMenu__menuItem__image {
+    width: 9.5rem;
+    height: 9.5rem;
+  }
+  .homeMenu__menuItem__content__title {
+    font-size: 2rem;
+  }
+  .homeMenu__menuItem__content__description {
+    max-width: 394px;
+  }
+}
 
 .facilities {
   display: flex;
@@ -1409,6 +1664,24 @@
   max-width: 300px;
   margin-left: 1rem;
   margin-bottom: 3rem;
+}
+@media only screen and (min-width: 1000px) {
+  .facilities__subtitle {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  .facilities__title {
+    font-size: 4rem;
+  }
+  .facilities__container {
+    width: 600px;
+  }
+  .facilities__container__title {
+    font-size: 3rem;
+  }
+  .facilities__container__description {
+    max-width: 430px;
+  }
 }
 
 html,

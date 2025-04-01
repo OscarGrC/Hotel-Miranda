@@ -44,6 +44,8 @@
         border: none;
         height: 26rem !important;
 
+
+
         .swiper-slide {
             font-size: 18px;
             text-align: center;
@@ -58,6 +60,11 @@
             width: 20.9rem;
             height: 20.9rem;
 
+            @media only screen and (min-width: 1000px) {
+                width: 31.9rem;
+                height: 22.9rem;
+
+            }
         }
 
         .swiper-pagination {
@@ -124,9 +131,8 @@
                 @include titleOld($black2, 1.875rem, 1.875rem);
                 padding-bottom: 0.5rem;
             }
+
         }
-
-
 
         .swiper-button-next {
             color: black;
@@ -174,6 +180,36 @@
             font-size: 0.6rem;
         }
 
+
+        @media only screen and (min-width: 1000px) {
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+            width: 40rem;
+            height: 40rem;
+
+            .swiper-slide {
+
+                &__subtitle {
+                    &-alt {
+                        font-size: 1.3rem;
+                    }
+                }
+
+                &__title {
+                    &-alt {
+                        margin-left: 58px;
+                        max-width: 539px;
+                    }
+                }
+
+                &__titleAlt {
+                    padding-top: 2rem;
+                    @include titleOld($black2, 1.875rem, 1.875rem);
+                    padding-bottom: 0.5rem;
+                }
+            }
+
+        }
     }
 
     &__Contact {
@@ -373,5 +409,11 @@
         .swiper-pagination-bullet-active {
             background: $beige;
         }
+
+    }
+
+    @media only screen and (min-width: 1000px) {
+        width: 50.4rem;
+        height: 37rem;
     }
 }

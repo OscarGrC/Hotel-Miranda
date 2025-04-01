@@ -76,5 +76,48 @@
         }
     }
 
+    @media only screen and (min-width: 1000px) {
+
+        align-items: flex-start;
+
+
+        &__Img {
+            position: absolute;
+            right: 0%;
+            top: 0%;
+
+        }
+
+        &__subtitle {
+            font-size: 1.5rem;
+            margin-left: 10%;
+        }
+
+        &__title {
+            margin-left: 10%;
+            max-width: 634px;
+        }
+
+        &__menuItem {
+            margin-left: 15%;
+
+
+            &__image {
+                width: 9.5rem;
+                height: 9.5rem;
+            }
+
+            &__content {
+
+                &__title {
+                    font-size: 2rem;
+                }
+
+                &__description {
+                    max-width: 394px;
+                }
+            }
+        }
+    }
 
 }

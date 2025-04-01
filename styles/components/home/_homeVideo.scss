@@ -70,4 +70,46 @@
         @include defaultButton($beige, $beigeHover, $whiteF);
     }
 
+
+    @media only screen and (min-width: 1000px) {
+
+        align-items: flex-start;
+
+        &__intro-title {
+            margin-left: 10%;
+        }
+
+        &__main-title {
+            margin-left: 10%;
+            max-width: 800px;
+        }
+
+        &__description {
+            margin-left: 10%;
+            font-size: 1.2rem;
+            max-width: 700px;
+        }
+
+        &__video-container {
+
+            &__video {
+                width: 500px;
+                height: 298px;
+            }
+
+            &__play-button {
+                left: 251px;
+
+                img {
+                    width: 1.7rem;
+                    height: 1.7rem;
+                }
+            }
+        }
+
+        &__button {
+            margin-left: 10%;
+        }
+
+    }
 }

@@ -55,4 +55,22 @@
         margin-top: 2rem;
         margin-right: 4.5rem;
     }
+
+    @media only screen and (min-width: 1300px) {
+        align-items: flex-start;
+        flex-direction: row;
+
+        &__item {
+            margin-bottom: 2rem;
+            text-align: left;
+            margin-left: 10%;
+        }
+
+        &__button {
+            margin-left: 2rem;
+            margin-top: 1rem;
+            margin-right: 2.5rem;
+        }
+
+    }
 }

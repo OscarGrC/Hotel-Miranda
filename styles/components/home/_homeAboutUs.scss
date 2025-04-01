@@ -123,4 +123,44 @@
 
         }
     }
+
+    @media only screen and (min-width: 1000px) {
+        align-items: flex-start;
+        margin-left: 10%;
+
+        &__title {
+            max-width: 640px;
+        }
+
+        &__text {
+            font-size: 1.2rem;
+            max-width: 640px;
+        }
+
+        .homeAboutUs__Card {
+            max-width: 41rem;
+
+            &__image {
+                width: 41rem;
+                height: 21.75rem;
+            }
+
+            &__container {
+
+                &__icon {
+                    width: 5rem;
+                    height: 4rem;
+                }
+
+                &__title {
+                    font-size: 2.875rem;
+                }
+
+                &__text {
+                    font-size: 1.2rem;
+                    max-width: 600px;
+                }
+            }
+        }
+    }
 }

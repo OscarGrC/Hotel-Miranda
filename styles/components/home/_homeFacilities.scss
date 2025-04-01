@@ -75,4 +75,28 @@
             margin-bottom: 3rem;
         }
     }
+
+    @media only screen and (min-width: 1000px) {
+
+        &__subtitle {
+            font-size: 1.5rem;
+            margin-left: 1rem;
+        }
+
+        &__title {
+            font-size: 4rem;
+        }
+
+        &__container {
+            width: 600px;
+
+            &__title {
+                font-size: 3rem;
+            }
+
+            &__description {
+                max-width: 430px;
+            }
+        }
+    }
 }
