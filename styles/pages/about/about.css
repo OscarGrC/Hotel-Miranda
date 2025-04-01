@@ -373,6 +373,15 @@
   max-width: 325px;
   text-align: center;
 }
+@media only screen and (min-width: 1000px) {
+  .aboutVideo__videoContainer__video {
+    width: 41rem;
+    height: 22rem;
+  }
+  .aboutVideo__text {
+    max-width: 660px;
+  }
+}
 
 .aboutServices {
   display: grid;
@@ -427,6 +436,12 @@
   letter-spacing: 0.15rem !important;
   text-align: center !important;
   transition: color 0.3s ease;
+}
+@media only screen and (min-width: 1000px) {
+  .aboutServices {
+    display: flex;
+    margin-bottom: 2rem;
+  }
 }
 
 .aboutRestaurant {
@@ -494,6 +509,43 @@
 .aboutRestaurant__button:hover {
   background-color: #c0a87d;
 }
+@media only screen and (min-width: 1000px) {
+  .aboutRestaurant {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 1rem;
+    align-items: start;
+  }
+  .aboutRestaurant__image {
+    grid-column: 1;
+    grid-row: 1/4;
+    width: 35rem;
+    height: 18.5rem;
+    justify-self: end;
+  }
+  .aboutRestaurant__subtext {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .aboutRestaurant__title {
+    margin-top: 2rem;
+    grid-column: 2;
+    grid-row: 1;
+    max-width: 450px;
+  }
+  .aboutRestaurant__text {
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 490px;
+  }
+  .aboutRestaurant__button {
+    grid-column: 2;
+    grid-row: 3;
+    padding: 1.2rem 0.5rem;
+    margin-right: 27rem;
+  }
+}
 
 .services {
   height: auto;
@@ -526,6 +578,12 @@
      object-fit: cover;
   width: 20.9rem;
   height: 14.4rem;
+}
+@media only screen and (min-width: 1000px) {
+  .swiper__Counter .swiper-slide img {
+    width: 32rem;
+    height: 30rem;
+  }
 }
 .swiper__Counter .swiper-pagination-bullet-active {
   background: #BEAD8E;
@@ -961,6 +1019,18 @@
   color: #777777;
   margin-left: 0.5rem;
 }
+@media only screen and (min-width: 1000px) {
+  .aboutCounter {
+    align-items: flex-start;
+    margin-left: 10%;
+  }
+  .aboutCounter__title {
+    max-width: 394px;
+  }
+  .aboutCounter__itemContainer {
+    display: inline-flex;
+  }
+}
 
 .footer {
   font-family: "Roboto", sans-serif;
@@ -1121,7 +1191,6 @@
     grid-template-rows: auto auto auto auto;
     gap: 1rem;
     align-items: start;
-    /* Columna izquierda (Logo, Texto, Social) */
   }
   .footer__logo {
     grid-column: 1;

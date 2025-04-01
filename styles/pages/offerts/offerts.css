@@ -510,6 +510,12 @@
   width: 20.9rem;
   height: 14.4rem;
 }
+@media only screen and (min-width: 1000px) {
+  .swiper__Counter .swiper-slide img {
+    width: 32rem;
+    height: 30rem;
+  }
+}
 .swiper__Counter .swiper-pagination-bullet-active {
   background: #BEAD8E;
 }
@@ -1157,7 +1163,6 @@
     grid-template-rows: auto auto auto auto;
     gap: 1rem;
     align-items: start;
-    /* Columna izquierda (Logo, Texto, Social) */
   }
   .footer__logo {
     grid-column: 1;

@@ -44,4 +44,19 @@
         max-width: 325px;
         text-align: center;
     }
+
+    @media only screen and (min-width: 1000px) {
+
+        &__videoContainer {
+            &__video {
+                width: 41rem;
+                height: 22rem;
+            }
+        }
+
+        &__text {
+            max-width: 660px;
+        }
+
+    }
 }

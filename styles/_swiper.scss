@@ -31,6 +31,11 @@
             object-fit: cover;
             width: 20.9rem;
             height: 14.4rem;
+
+            @media only screen and (min-width: 1000px) {
+                width: 32rem;
+                height: 30rem;
+            }
         }
 
 

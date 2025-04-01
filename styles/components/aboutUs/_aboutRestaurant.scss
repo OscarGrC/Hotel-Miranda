@@ -41,4 +41,51 @@
         padding: 1.5rem 2.8rem;
         margin-right: 5rem;
     }
+
+
+    @media only screen and (min-width: 1000px) {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+        gap: 1rem;
+        align-items: start;
+
+        &__image {
+            grid-column: 1;
+            grid-row: 1/4;
+            width: 35rem;
+            height: 18.5rem;
+            justify-self: end;
+
+        }
+
+        &__subtext {
+            grid-column: 2;
+            grid-row: 1;
+        }
+
+        &__title {
+            margin-top: 2rem;
+            grid-column: 2;
+            grid-row: 1;
+            max-width: 450px;
+        }
+
+        &__text {
+            grid-column: 2;
+            grid-row: 2;
+            max-width: 490px;
+        }
+
+        &__button {
+            grid-column: 2;
+            grid-row: 3;
+            padding: 1.2rem 0.5rem;
+            margin-right: 27rem;
+
+        }
+
+
+    }
 }

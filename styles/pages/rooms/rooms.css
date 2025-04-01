@@ -655,7 +655,6 @@
     grid-template-rows: auto auto auto auto;
     gap: 1rem;
     align-items: start;
-    /* Columna izquierda (Logo, Texto, Social) */
   }
   .footer__logo {
     grid-column: 1;

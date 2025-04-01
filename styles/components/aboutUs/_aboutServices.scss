@@ -54,4 +54,11 @@
             transition: color 0.3s ease;
         }
     }
+
+    @media only screen and (min-width: 1000px) {
+        display: flex;
+        margin-bottom: 2rem;
+    }
+
+
 }
