@@ -475,6 +475,11 @@
   gap: 1rem;
   padding: 1rem;
 }
+@media only screen and (min-width: 1000px) {
+  .ServicesList {
+    display: inline-block;
+  }
+}
 .ServicesList__title {
   font-family: "Old Standard TT", serif;
   font-size: 1.875rem;
@@ -520,6 +525,11 @@
 
 .servicesBlack {
   background-color: black;
+}
+@media only screen and (min-width: 1000px) {
+  .servicesBlack {
+    height: 44rem;
+  }
 }
 
 .swiper {
@@ -898,7 +908,7 @@
 @media only screen and (min-width: 1000px) {
   .swiper {
     width: 50.4rem;
-    height: 37rem;
+    height: 42rem;
   }
 }
 
@@ -1025,6 +1035,9 @@
   .roomCard__icons__icon {
     width: 1.5rem;
     height: 1.5rem;
+  }
+  .roomCard__iconsB {
+    top: -19px;
   }
   .roomCard__title {
     font-size: 2.5rem;

@@ -450,6 +450,9 @@
     width: 1.5rem;
     height: 1.5rem;
   }
+  .roomCard__iconsB {
+    top: -19px;
+  }
   .roomCard__title {
     font-size: 2.5rem;
   }

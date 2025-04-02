@@ -85,4 +85,57 @@
         padding: 1.5rem 3rem;
         margin-right: 5rem;
     }
+
+    @media only screen and (min-width: 1000px) {
+        height: 46rem;
+        position: relative;
+
+        &__imageContainer {
+            position: relative;
+
+            &__image {
+                width: 57rem;
+                height: 21rem;
+            }
+        }
+
+        &__price {
+            top: 22.5rem;
+            right: 4.5rem;
+            z-index: 3;
+
+            &-last {
+                top: 20.5rem;
+                z-index: 3;
+            }
+        }
+
+        &__textContainer {
+            background-color: white;
+            top: 21rem;
+            width: 50rem;
+            position: absolute;
+            z-index: 2;
+            padding-left: 1.5rem;
+            padding-top: 1.5rem;
+        }
+
+        &__header {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+
+            &__title {
+                max-width: 400px;
+                margin-bottom: 2rem;
+            }
+        }
+
+        &__description {
+            max-width: 445px;
+            display: inline-flex;
+        }
+
+
+    }
 }

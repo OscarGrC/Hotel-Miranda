@@ -333,6 +333,11 @@
   gap: 1rem;
   padding: 1rem;
 }
+@media only screen and (min-width: 1000px) {
+  .ServicesList {
+    display: inline-block;
+  }
+}
 .ServicesList__title {
   font-family: "Old Standard TT", serif;
   font-size: 1.875rem;
@@ -477,6 +482,50 @@
 .OfferCard__button:hover {
   background-color: #c0a87d;
 }
+@media only screen and (min-width: 1000px) {
+  .OfferCard {
+    height: 46rem;
+    position: relative;
+  }
+  .OfferCard__imageContainer {
+    position: relative;
+  }
+  .OfferCard__imageContainer__image {
+    width: 57rem;
+    height: 21rem;
+  }
+  .OfferCard__price {
+    top: 22.5rem;
+    right: 4.5rem;
+    z-index: 3;
+  }
+  .OfferCard__price-last {
+    top: 20.5rem;
+    z-index: 3;
+  }
+  .OfferCard__textContainer {
+    background-color: white;
+    top: 21rem;
+    width: 50rem;
+    position: absolute;
+    z-index: 2;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  .OfferCard__header {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .OfferCard__header__title {
+    max-width: 400px;
+    margin-bottom: 2rem;
+  }
+  .OfferCard__description {
+    max-width: 445px;
+    display: inline-flex;
+  }
+}
 
 .services {
   height: auto;
@@ -485,6 +534,11 @@
 
 .servicesBlack {
   background-color: black;
+}
+@media only screen and (min-width: 1000px) {
+  .servicesBlack {
+    height: 44rem;
+  }
 }
 
 .swiper {
@@ -863,7 +917,7 @@
 @media only screen and (min-width: 1000px) {
   .swiper {
     width: 50.4rem;
-    height: 37rem;
+    height: 42rem;
   }
 }
 
@@ -990,6 +1044,9 @@
   .roomCard__icons__icon {
     width: 1.5rem;
     height: 1.5rem;
+  }
+  .roomCard__iconsB {
+    top: -19px;
   }
   .roomCard__title {
     font-size: 2.5rem;

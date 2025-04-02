@@ -42,4 +42,38 @@
         @include defaultButton($beige, $beigeHover, $whiteF, auto, auto);
         padding: 1.5rem 6.5rem;
     }
+
+    @media only screen and (min-width: 1000px) {
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+
+        &__container {
+
+            &__input {
+                font-size: 1.5rem;
+                padding-left: 4rem;
+
+                &--last {
+                    padding-bottom: 10rem;
+                }
+            }
+
+            &__icon {
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+
+        &__buttonContainer {
+            flex-basis: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+    }
 }

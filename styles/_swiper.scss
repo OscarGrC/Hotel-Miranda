@@ -6,6 +6,10 @@
 
 .servicesBlack {
     background-color: black;
+
+    @media only screen and (min-width: 1000px) {
+        height: 44rem;
+    }
 }
 
 .swiper {
@@ -419,6 +423,6 @@
 
     @media only screen and (min-width: 1000px) {
         width: 50.4rem;
-        height: 37rem;
+        height: 42rem;
     }
 }
