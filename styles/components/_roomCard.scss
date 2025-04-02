@@ -127,6 +127,9 @@
         }
 
         &__icons {
+            top: 30px;
+            left: 16%;
+
             &-sliderHomeRooms {
                 top: -19px;
                 left: 16%;
@@ -159,5 +162,14 @@
                 }
             }
         }
+    }
+}
+
+.roomCardContainer {
+    @media only screen and (min-width: 1000px) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
     }
 }

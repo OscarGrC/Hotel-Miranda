@@ -314,7 +314,7 @@
     margin-left: 20%;
     font-size: 5.5rem;
     line-height: 4.75rem;
-    max-width: 530px;
+    max-width: 630px;
   }
   .luxuryExperience__button-tour {
     margin-left: 20%;
@@ -438,6 +438,10 @@
   .roomCard__image-homeRooms {
     width: 375px;
   }
+  .roomCard__icons {
+    top: 30px;
+    left: 16%;
+  }
   .roomCard__icons-sliderHomeRooms {
     top: -19px;
     left: 16%;
@@ -460,6 +464,15 @@
   }
   .roomCard__price-booking__price-alt2 {
     font-size: 1.875rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .roomCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
   }
 }
 
