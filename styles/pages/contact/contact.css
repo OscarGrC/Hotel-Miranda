@@ -466,6 +466,7 @@
     align-items: flex-start;
     flex-wrap: wrap;
     gap: 1rem;
+    margin-left: 10%;
   }
   .contactForm__container__input {
     font-size: 1.5rem;
